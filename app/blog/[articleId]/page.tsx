@@ -6,6 +6,7 @@ import Avatar from "../_assets/components/Avatar";
 import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
 
+export const runtime = 'edge';
 export async function generateMetadata({
   params,
 }: {

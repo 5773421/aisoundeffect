@@ -38,6 +38,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.11.3",
     "@types/jest": "^29.5.12",
     "@types/mdx": "^2.0.12",
     "@types/mongoose": "^5.11.97",
