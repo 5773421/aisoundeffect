@@ -5,7 +5,7 @@ import connectMongo from "@/libs/mongoose";
 import { createCustomerPortal } from "@/libs/stripe";
 import User from "@/models/User";
 
-export const runtime = 'edge';
+// export const runtime = 'edge';
 export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions);
 

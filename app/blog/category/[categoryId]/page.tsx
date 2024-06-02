@@ -4,7 +4,7 @@ import CardCategory from "../../_assets/components/CardCategory";
 import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
 
-export const runtime = 'edge';
+// export const runtime = 'edge';
 export async function generateMetadata({
   params,
 }: {
