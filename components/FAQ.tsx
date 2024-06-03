@@ -13,22 +13,39 @@ interface FAQItemProps {
 
 const faqList: FAQItemProps[] = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    question: "What is an AI sound effect generator?",
+    answer: <div className="space-y-2 leading-relaxed">An AI sound effect generator is a tool that utilizes artificial intelligence technology to create and manipulate various sound effects. It can generate a wide range of audio effects such as ambient sounds, machine noises, animal calls, and more, using advanced algorithms and machine learning techniques.</div>,
   },
   {
-    question: "Can I get a refund?",
+    question: "How does an AI sound effect generator work?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        An AI sound effect generator works by using deep learning models and neural networks to analyze and synthesize audio data. It can learn from existing sound samples and then generate new sound effects based on the learned patterns. The AI technology can adapt to different input parameters and produce realistic and diverse sound effects.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "What are the benefits of using an AI sound effect generator?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <div className="space-y-2 leading-relaxed">Using an AI sound effect generator offers several benefits, such as the ability to quickly create custom and realistic sound effects for various purposes including movies, video games, music production, and multimedia projects. It can also save time and resources by automating the sound design process and providing a wide variety of high-quality audio effects.</div>
+    ),
+  },
+  {
+    question: "Can an AI sound effect generator mimic natural sounds accurately?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">Yes, an AI sound effect generator can mimic natural sounds with a high level of accuracy. Through advanced algorithms and machine learning, it can analyze and replicate the complex patterns and nuances of natural sounds, such as animal calls, environmental noises, and atmospheric effects, providing realistic and lifelike audio experiences.</div>
+    ),
+  },
+  {
+    question: "Is an AI sound effect generator suitable for professional audio production?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">Yes, an AI sound effect generator is suitable for professional audio production. It can assist sound designers, composers, and audio engineers in creating high-quality sound effects for films, video games, virtual reality experiences, and other media projects. The advanced capabilities of AI technology can enhance the creative process and expand the possibilities of audio design.</div>
+    ),
+  },
+  {
+    question: "What are some popular AI sound effect generators available in the market?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">There are several popular AI sound effect generators available in the market, including software applications, plugins, and online platforms. Some notable examples include XYZ Sound AI, SoundSense AI, SynthMaster, and Noiiz AI. These tools offer varying features and capabilities for creating and manipulating sound effects using artificial intelligence technology.</div>
     ),
   },
 ];

@@ -8,18 +8,31 @@ import Image from "next/image";
 import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/icon.png";
 import config from "@/config";
+import { SessionProvider } from "next-auth/react";
 
 const links: {
   href: string;
   label: string;
 }[] = [
+  // {
+  //   href: "/#pricing",
+  //   label: "Pricing",
+  // },
   {
-    href: "/#pricing",
-    label: "Pricing",
+    href: '/',
+    label: 'Home',
+  },
+  {
+    href: '/playground',
+    label: 'Playground',
   },
   {
     href: "/#testimonials",
     label: "Reviews",
+  },
+  {
+    href: '/blogs',
+    label: 'Blogs',
   },
   {
     href: "/#faq",
@@ -41,6 +54,7 @@ const Header = () => {
   }, [searchParams]);
 
   return (
+    <SessionProvider>
     <header className="bg-base-200">
       <nav
         className="container flex items-center justify-between px-8 py-4 mx-auto"
@@ -105,7 +119,7 @@ const Header = () => {
         </div>
 
         {/* CTA on large screens */}
-        <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>
+        {/* <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div> */}
       </nav>
 
       {/* Mobile menu, show/hide based on menu state. */}
@@ -177,7 +191,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  );
+  </SessionProvider>);
 };
 
 export default Header;

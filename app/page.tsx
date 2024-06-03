@@ -7,20 +7,22 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import IframeCom from '@/components/Iframe';
 
 export default function Home() {
   return (
     <>
-      <Suspense>
+      {/* <Suspense>
         <Header />
-      </Suspense>
+      </Suspense> */}
       <main>
         <Hero />
-        <Problem />
+        <IframeCom />
+        {/* <Problem /> */}
         <FeaturesAccordion />
-        <Pricing />
+        {/* <Pricing /> */}
         <FAQ />
-        <CTA />
+        {/* <CTA /> */}
       </main>
       <Footer />
     </>
