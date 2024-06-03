@@ -55,7 +55,7 @@ const Hero = () => {
           width={500}
           height={500}
         >
-          <source src={'https://img.aestheticwallpaperai.com/demo.mov'} type={'video'} />
+          <source src={'https://img.aestheticwallpaperai.com/wallpapers%2Fdemo.mov'} type={'video'} />
         </video>
       </div>
     </section>
