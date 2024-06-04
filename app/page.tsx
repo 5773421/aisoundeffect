@@ -8,6 +8,7 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import IframeCom from '@/components/Iframe';
+import HowToUse from '@/components/HowToUse';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         {/* <Problem /> */}
         <FeaturesAccordion />
         {/* <Pricing /> */}
+        <HowToUse />
         <FAQ />
         {/* <CTA /> */}
       </main>

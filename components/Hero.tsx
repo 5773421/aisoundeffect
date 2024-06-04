@@ -38,11 +38,10 @@ const Hero = () => {
         <TestimonialsAvatars priority={true} />
       </div>
       <div className="lg:w-full">
-        <Image
-          src={demo}
+        <img
+          src='https://img.aestheticwallpaperai.com/wallpapers%2FWechatIMG350.png'
           alt="Product Demo"
           className="w-full"
-          priority={true}
           width={500}
           height={500}
         />
