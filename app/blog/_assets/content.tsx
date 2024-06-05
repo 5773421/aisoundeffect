@@ -202,7 +202,7 @@ const styles: {
 export const articles: articleType[] = [
   {
     // The unique slug to use in the URL. It's also used to generate the canonical URL.
-    slug: "introducing-ai-sound-effect",
+    slug: "introducing-ai-sound-effect-generators",
     // The title to display in the article page (h1). Less than 60 characters. It's also used to generate the meta title.
     title: "Introduction to AI Sound Effect Generators",
     // The description of the article to display in the article page. Up to 160 characters. It's also used to generate the meta description.
@@ -264,7 +264,7 @@ export const articles: articleType[] = [
             AI sound effect generators typically use neural networks and generative models. These models are trained on vast datasets of existing sounds, learning to recreate and innovate based on the input they receive. Users simply describe the sound they need, and the AI generates it, often offering multiple variations to choose from
           </p>
 
-          <h4 className={styles.h4}>Key Features</h4>
+          <h4 className={styles.h4}>AI Sound Effect Generators Key Features</h4>
           <ul className={styles.ul}>
             <li className={styles.li}>Text-to-Sound Conversion: Converts descriptive text into sound effects.</li>
             <li className={styles.li}>Real-Time Feedback: Allows users to hear and refine sounds instantly.</li>
