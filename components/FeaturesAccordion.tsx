@@ -97,7 +97,7 @@ const features = [
     // ),
   },
   {
-    title: "High-Quality Output",
+    title: "High-Quality and Royalty-Free",
     description:
       "Experience high-quality audio output with our AI sound effect generator. Each sound effect is meticulously crafted to deliver exceptional clarity and depth, ensuring that your projects have professional-grade audio elements.",
     type: 'image',

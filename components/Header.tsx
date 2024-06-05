@@ -31,8 +31,8 @@ const links: {
     label: "Reviews",
   },
   {
-    href: '/blogs',
-    label: 'Blogs',
+    href: '/blog',
+    label: 'Blog',
   },
   {
     href: "/#faq",

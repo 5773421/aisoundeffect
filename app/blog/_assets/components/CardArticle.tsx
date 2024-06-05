@@ -9,7 +9,7 @@ import { articleType } from "../content";
 const CardArticle = ({
   article,
   tag = "h2",
-  showCategory = true,
+  showCategory = false,
   isImagePriority = false,
 }: {
   article: articleType;
@@ -69,7 +69,7 @@ const CardArticle = ({
 
           {/* AUTHOR & DATE */}
           <div className="flex items-center gap-4 text-sm">
-            <Avatar article={article} />
+            {/* <Avatar article={article} /> */}
 
             <span itemProp="datePublished">
               {new Date(article.publishedAt).toLocaleDateString("en-US", {

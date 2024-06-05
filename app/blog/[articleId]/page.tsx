@@ -110,7 +110,7 @@ export default async function Article({
 
       <article>
         {/* HEADER WITH CATEGORIES AND DATE AND TITLE */}
-        <section className="my-12 md:my-20 max-w-[800px]">
+        <section className="my-12 md:my-20 w-full">
           <div className="flex items-center gap-4 mb-6">
             {article.categories.map((category) => (
               <BadgeCategory
@@ -139,7 +139,7 @@ export default async function Article({
 
         <div className="flex flex-col md:flex-row">
           {/* SIDEBAR WITH AUTHORS AND 3 RELATED ARTICLES */}
-          <section className="max-md:pb-4 md:pl-12 max-md:border-b md:border-l md:order-last md:w-72 shrink-0 border-base-content/10">
+          {/* <section className="max-md:pb-4 md:pl-12 max-md:border-b md:border-l md:order-last md:w-72 shrink-0 border-base-content/10">
             <p className="text-base-content/80 text-sm mb-2 md:mb-3">
               Posted by
             </p>
@@ -171,7 +171,7 @@ export default async function Article({
                 </div>
               </div>
             )}
-          </section>
+          </section> */}
 
           {/* ARTICLE CONTENT */}
           <section className="w-full max-md:pt-4 md:pr-20 space-y-12 md:space-y-20">

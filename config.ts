@@ -6,7 +6,7 @@ const config = {
   appName: "Ai Sound Effect Generator",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "Create realistic and immersive AI sound effects with our advanced sound effect generator. Perfect for game developers, filmmakers, and content creators.",
+    "Discover the ultimate tool for creating unique sound effects instantly. Our AI sound effect generator brings your imagination to life with high-quality audio tailored to your needs.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
   domainName: "shipfa.st",
   crisp: {
