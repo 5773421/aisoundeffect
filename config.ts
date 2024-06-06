@@ -3,7 +3,7 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "Ai Sound Effect Generator Free & Text To Sound Effect",
+  appName: "Ai Sound Effect Generator",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
     "Discover the ultimate tool for creating unique sound effects instantly. Our AI sound effect generator brings your imagination to life with high-quality audio tailored to your needs.",
