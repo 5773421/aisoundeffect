@@ -57,51 +57,38 @@ const PrivacyPolicy = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: 2023-08-25
+          {`Last Updated: June 6, 2024
 
-Thank you for visiting ShipFast ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://shipfa.st (the "Website").
-
-By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please do not use the Website.
+Welcome to AI Sound Effect Generator! This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website https://aisoundeffectgenerator.com. By using our website, you agree to the terms of this Privacy Policy.
 
 1. Information We Collect
 
-1.1 Personal Data
-
-We collect the following personal information from you:
-
-Name: We collect your name to personalize your experience and communicate with you effectively.
-Email: We collect your email address to send you important information regarding your orders, updates, and communication.
-Payment Information: We collect payment details to process your orders securely. However, we do not store your payment information on our servers. Payments are processed by trusted third-party payment processors.
-
-1.2 Non-Personal Data
-
-We may use web cookies and similar technologies to collect non-personal information such as your IP address, browser type, device information, and browsing patterns. This information helps us to enhance your browsing experience, analyze trends, and improve our services.
-
+Personal Information: We collect your name, email address, and payment information when you make a purchase on our website.
+Non-Personal Information: We collect non-personal data through the use of web cookies to improve your browsing experience.
 2. Purpose of Data Collection
 
-We collect and use your personal data for the sole purpose of order processing. This includes processing your orders, sending order confirmations, providing customer support, and keeping you updated about the status of your orders.
+We use your personal information to process your orders and ensure you have a smooth transaction experience.
 
 3. Data Sharing
 
-We do not share your personal data with any third parties except as required for order processing (e.g., sharing your information with payment processors). We do not sell, trade, or rent your personal information to others.
+We do not share your personal information with any other parties.
 
 4. Children's Privacy
 
-ShipFast is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
+We do not knowingly collect any personal information from children under the age of 13. If we become aware that we have inadvertently received personal information from a child under the age of 13, we will delete such information from our records.
 
-5. Updates to the Privacy Policy
+5. Updates to This Privacy Policy
 
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page, and we may notify you via email about significant changes.
+We may update this Privacy Policy from time to time. If we make any changes, we will notify you by email. Your continued use of our website following the posting of changes will constitute your acceptance of those changes.
 
-6. Contact Information
+6. Contact Us
 
-If you have any questions, concerns, or requests related to this Privacy Policy, you can contact us at:
+If you have any questions or concerns about this Privacy Policy, please contact us at mahuahuayayaya@gmail.com.
 
-Email: marc@shipfa.st
+Thank you for visiting AI Sound Effect Generator!
 
-For all other inquiries, please visit our Contact Us page on the Website.
-
-By using ShipFast, you consent to the terms of this Privacy Policy.`}
+AI Sound Effect Generator
+https://aisoundeffectgenerator.com`}
         </pre>
       </div>
     </main>

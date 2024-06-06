@@ -57,39 +57,34 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Last Updated: June 6, 2024
 
-Welcome to ShipFast!
+Welcome to AI Sound Effect Generator ("we", "us", "our"). By using our website, https://aisoundeffectgenerator.com (the "Site"), you agree to these Terms & Services. Please read them carefully.
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+1. Description of Service
+AI Sound Effect Generator allows users to enter text to generate sound effects. Advanced features are available through the purchase of credits.
 
-1. Description of ShipFast
+2. Ownership
+When you purchase a package, you receive credits to use advanced features. You may use the resulting sound effects for a variety of purposes.
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
-
-2. Ownership and Usage Rights
-
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
-
-3. User Data and Privacy
-
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+3. User Data Collection
+We collect personal information, including your name, email, and payment information, to provide our services.
 
 4. Non-Personal Data Collection
+We use web cookies to collect non-personal data to improve our services.
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+5. Updates to the Terms
+We may update these Terms & Services from time to time. Users will be notified of any changes via email.
 
-5. Governing Law
+6. Contact Information
+For any questions or concerns, please contact us at mahuahuayayaya@gmail.com.
 
-These Terms are governed by the laws of France.
+By using our Site, you agree to these Terms & Services.
 
-6. Updates to the Terms
+Thank you for choosing AI Sound Effect Generator.
 
-We may update these Terms from time to time. Users will be notified of any changes via email.
-
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
-
-Thank you for using ShipFast!`}
+AI Sound Effect Generator Team
+`}
         </pre>
       </div>
     </main>
