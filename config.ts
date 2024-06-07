@@ -65,6 +65,56 @@ const config = {
       },
     ],
   },
+  lemonsqueezy: {
+    // Create a product and add multiple variants via your Lemon Squeezy dashboard, then add them here. You can add as many plans as you want, just make sure to add the variantId.
+    plans: [
+      {
+        // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
+        variantId:
+          process.env.NODE_ENV === "development"
+            ? "408778"
+            : "408778",
+        //  REQUIRED - Name of the plan, displayed on the pricing page
+        name: "Starter",
+        // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others.
+        description: "Perfect for small projects",
+        // The price you want to display, the one user will be charged on Lemon Squeezy
+        price: 99,
+        // If you have an anchor price (i.e. $149) that you want to display crossed out, put it here. Otherwise, leave it empty.
+        priceAnchor: 149,
+        features: [
+          {
+            name: "NextJS boilerplate",
+          },
+          { name: "User oauth" },
+          { name: "Database" },
+          { name: "Emails" },
+        ],
+      },
+      {
+        variantId:
+          process.env.NODE_ENV === "development"
+            ? "408778"
+            : "408778",
+        // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true.
+        isFeatured: true,
+        name: "Advanced",
+        description: "You need more power",
+        price: 149,
+        priceAnchor: 299,
+        features: [
+          {
+            name: "NextJS boilerplate",
+          },
+          { name: "User oauth" },
+          { name: "Database" },
+          { name: "Emails" },
+          { name: "1 year of updates" },
+          { name: "24/7 support" },
+        ],
+      },
+    ],
+  },
   aws: {
     // If you use AWS S3/Cloudfront, put values in here
     bucket: "bucket-name",

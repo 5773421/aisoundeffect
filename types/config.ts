@@ -43,6 +43,19 @@ export interface ConfigProps {
       }[];
     }[];
   };
+  lemonsqueezy: {
+    plans: {
+      isFeatured?: boolean;
+      variantId: string;
+      name: string;
+      description?: string;
+      price: number;
+      priceAnchor?: number;
+      features: {
+        name: string;
+      }[];
+    }[];
+  };
   aws?: {
     bucket?: string;
     bucketUrl?: string;

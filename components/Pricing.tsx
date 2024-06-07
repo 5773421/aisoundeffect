@@ -2,8 +2,8 @@ import config from "@/config";
 import ButtonCheckout from "./ButtonCheckout";
 
 // <Pricing/> displays the pricing plans for your app
-// It's your Stripe config in config.js.stripe.plans[] that will be used to display the plans
-// <ButtonCheckout /> renders a button that will redirect the user to Stripe checkout called the /api/stripe/create-checkout API endpoint with the correct priceId
+// It's your Lemon Squeezy config in config.js (config.lemonsqueezy.plans[]) that will be used to display the plans
+// <ButtonCheckout /> renders a button that will redirect the user to Lemon Squeezy checkout called the /api/lemonsqueezy/create-checkout API endpoint with the correct variantId
 
 const Pricing = () => {
   return (
@@ -17,8 +17,8 @@ const Pricing = () => {
         </div>
 
         <div className="relative flex justify-center flex-col lg:flex-row items-center lg:items-stretch gap-8">
-          {config.stripe.plans.map((plan) => (
-            <div key={plan.priceId} className="relative w-full max-w-lg">
+          {config.lemonsqueezy.plans.map((plan) => (
+            <div key={plan.variantId} className="relative w-full max-w-lg">
               {plan.isFeatured && (
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
                   <span
@@ -89,7 +89,7 @@ const Pricing = () => {
                   </ul>
                 )}
                 <div className="space-y-2">
-                  <ButtonCheckout priceId={plan.priceId} />
+                  <ButtonCheckout variantId={plan.variantId} />
 
                   <p className="flex items-center justify-center gap-2 text-sm text-center text-base-content/80 font-medium relative">
                     Pay once. Access forever.
