@@ -21,7 +21,7 @@ export default function Home() {
         <IframeCom />
         {/* <Problem /> */}
         <FeaturesAccordion />
-        <Pricing />
+        {/* <Pricing /> */}
         <HowToUse />
         <FAQ />
         {/* <CTA /> */}
