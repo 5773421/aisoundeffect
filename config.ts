@@ -8,7 +8,7 @@ const config = {
   appDescription:
     "Discover the ultimate tool for creating unique sound effects instantly. Our AI sound effect generator brings your imagination to life with high-quality audio tailored to your needs.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "shipfa.st",
+  domainName: "aisoundeffectgenerator.com",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",
