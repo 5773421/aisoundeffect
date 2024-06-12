@@ -1,0 +1,76 @@
+{
+  "Basic": {
+    "seoDesc": "Temukan alat terbaik untuk membuat efek suara unik secara instan. Generator efek suara AI kami menghidupkan imajinasi Anda dengan audio berkualitas tinggi yang disesuaikan dengan kebutuhan Anda.",
+    "seoTitle": "Generator Efek Suara AI Gratis & Teks ke Efek Suara"
+  },
+  "Blog": {
+    "desc": "Buat efek suara apa pun yang Anda inginkan",
+    "h1": "Blog Generator Efek Suara AI",
+    "seoDesc": "Buat efek suara AI realistis dan immersif dengan generator efek suara canggih kami. Sempurna untuk pengembang game, pembuat film, dan kreator konten.",
+    "seoTitle": "Blog Generator Efek Suara AI"
+  },
+  "FAQs": {
+    "a1": "Generator efek suara AI adalah alat yang menggunakan teknologi kecerdasan buatan untuk membuat dan memanipulasi berbagai efek suara. Ini dapat menghasilkan berbagai efek audio seperti suara ambient, suara mesin, panggilan hewan, dan lainnya, menggunakan algoritma canggih dan teknik pembelajaran mesin.",
+    "a2": "Generator efek suara AI bekerja dengan menggunakan model pembelajaran mendalam dan jaringan saraf untuk menganalisis dan mensintesis data audio. Ini dapat belajar dari sampel suara yang ada dan kemudian menghasilkan efek suara baru berdasarkan pola yang dipelajari. Teknologi AI dapat menyesuaikan dengan parameter input yang berbeda dan menghasilkan efek suara yang realistis dan beragam.",
+    "a3": "Menggunakan generator efek suara AI menawarkan beberapa manfaat, seperti kemampuan untuk dengan cepat membuat efek suara kustom dan realistis untuk berbagai tujuan termasuk film, video game, produksi musik, dan proyek multimedia. Ini juga dapat menghemat waktu dan sumber daya dengan mengotomatisasi proses desain suara dan menyediakan berbagai efek audio berkualitas tinggi.",
+    "a4": "Ya, generator efek suara AI dapat meniru suara alami dengan tingkat akurasi yang tinggi. Melalui algoritma canggih dan pembelajaran mesin, itu dapat menganalisis dan mereplikasi pola yang kompleks dan nuansa suara alami, seperti panggilan hewan, suara lingkungan, dan efek atmosfer, menyediakan pengalaman audio yang realistis dan hidup.",
+    "a5": "Ya, generator efek suara AI cocok untuk produksi audio profesional. Ini dapat membantu desainer suara, komposer, dan insinyur audio dalam membuat efek suara berkualitas tinggi untuk film, video game, pengalaman realitas virtual, dan proyek media lainnya. Kemampuan canggih teknologi AI dapat meningkatkan proses kreatif dan memperluas kemungkinan desain audio.",
+    "a6": "Ada beberapa generator efek suara AI populer yang tersedia di pasaran, termasuk aplikasi perangkat lunak, plugin, dan platform online. Beberapa contoh terkenal termasuk XYZ Sound AI, SoundSense AI, SynthMaster, dan Noiiz AI. Alat-alat ini menawarkan fitur dan kemampuan yang beragam untuk membuat dan memanipulasi efek suara menggunakan teknologi kecerdasan buatan.",
+    "q1": "Apa itu generator efek suara AI?",
+    "q2": "Bagaimana cara kerja generator efek suara AI?",
+    "q3": "Apa manfaat menggunakan generator efek suara AI?",
+    "q4": "Apakah generator efek suara AI dapat meniru suara alami dengan akurat?",
+    "q5": "Apakah generator efek suara AI cocok untuk produksi audio profesional?",
+    "q6": "Apa saja generator efek suara AI populer yang tersedia di pasaran?"
+  },
+  "Feature": {
+    "feaDesc1": "Generator efek suara AI kami memungkinkan Anda membuat efek suara yang disesuaikan untuk proyek Anda. Mulai dari nada futuristik hingga suara alam, Anda dapat dengan mudah menghasilkan audio unik untuk meningkatkan konten Anda.",
+    "feaDesc2": "Dengan generator efek suara AI kami, Anda memiliki akses ke berbagai pilihan yang dapat dipilih. Baik Anda memerlukan musik latar, suara ambient, atau efek khusus, platform kami menyediakan pilihan yang beragam untuk memenuhi kebutuhan Anda.",
+    "feaDesc3": "Generator efek suara AI kami dilengkapi dengan antarmuka yang intuitif dan mudah digunakan. Anda dapat dengan cepat menavigasi melalui platform untuk memilih, menyesuaikan, dan mengunduh efek suara yang sempurna untuk proyek Anda.",
+    "feaDesc4": "Rasakan output audio berkualitas tinggi dengan generator efek suara AI kami. Setiap efek suara dirancang secara teliti untuk memberikan kejelasan dan kedalaman yang luar biasa, memastikan bahwa proyek Anda memiliki elemen audio berkelas profesional.",
+    "feaTitle1": "Efek Suara AI Disesuaikan",
+    "feaTitle2": "Berbagai Pilihan",
+    "feaTitle3": "Antarmuka Mudah Digunakan",
+    "feaTitle4": "Berkualitas Tinggi dan Bebas Royalti",
+    "h2": "Fitur Generator Efek Suara AI Gratis",
+    "subTitle": "Buka keajaiban Generator Efek Suara AI",
+    "title": "Inovasi dalam Generator Efek Suara AI"
+  },
+  "Header": {
+    "Link1": "Beranda",
+    "Link2": "Lapangan Bermain",
+    "Link3": "Ulasan",
+    "Link4": "Blog",
+    "Link5": "FAQ"
+  },
+  "Hero": {
+    "desc": "Buat suara AI realistis dengan generator efek suara AI kami. Sesuaikan dan hasilkan efek suara kecerdasan buatan berkualitas tinggi untuk proyek Anda. Coba sekarang!",
+    "h1": "Pembuat Efek Suara AI Gratis",
+    "startBtn": "Mulai gratis"
+  },
+  "HowToUse": {
+    "feaDesc1": "Bidang Prompt adalah pintu gerbang Anda untuk memandu AI dalam memahami niat kreatif Anda.",
+    "feaDesc2": "Durasi suara yang Anda harapkan untuk dihasilkan.",
+    "feaDesc3": "Tombol Submit, klik untuk mulai menghasilkan",
+    "feaTitle1": "Prompt Audio",
+    "feaTitle2": "Durasi",
+    "feaTitle3": "Kirim",
+    "h2": "Gambaran Antarmuka Pembuat Efek Suara AI",
+    "subTitle": "Pembuat Efek Suara AI menawarkan sejumlah parameter untuk menciptakan efek suara Anda.",
+    "title": "Kenali Antarmuka Pembuat Efek Suara AI"
+  },
+  "Playground": {
+    "seoDesc": "",
+    "seoTitle": "Playground | Pembuat Efek Suara AI"
+  },
+  "Privacy": {
+    "pre": "Terakhir Diperbarui: 6 Juni 2024 \n\n Selamat datang di Pembuat Efek Suara AI! Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat Anda mengunjungi situs web kami https://aisoundeffectgenerator.com. Dengan menggunakan situs web kami, Anda setuju dengan ketentuan Kebijakan Privasi ini.\n\n1. Informasi yang Kami Kumpulkan\n\nInformasi Pribadi: Kami mengumpulkan nama, alamat email, dan informasi pembayaran Anda saat Anda melakukan pembelian di situs web kami.\nInformasi Non-Pribadi: Kami mengumpulkan data non-pribadi melalui penggunaan kuki web untuk meningkatkan pengalaman penjelajahan Anda.\n\n2. Tujuan Pengumpulan Data\n\nKami menggunakan informasi pribadi Anda untuk memproses pesanan Anda dan memastikan Anda memiliki pengalaman transaksi yang lancar.\n\n3. Berbagi Data\n\nKami tidak membagikan informasi pribadi Anda dengan pihak lain manapun.\n\n4. Privasi Anak-anak\n\nKami tidak sengaja mengumpulkan informasi pribadi dari anak di bawah usia 13 tahun. Jika kami mengetahui bahwa kami secara tidak sengaja menerima informasi pribadi dari seorang anak di bawah usia 13 tahun, kami akan menghapus informasi tersebut dari catatan kami.\n\n5. Pembaruan Kebijakan Privasi Ini\n\nKami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Jika kami melakukan perubahan, kami akan memberi tahu Anda melalui email. Penggunaan terus situs web kami setelah posting perubahan akan merupakan penerimaan Anda terhadap perubahan tersebut.\n\n6. Hubungi Kami\n\nJika Anda memiliki pertanyaan atau kekhawatiran tentang Kebijakan Privasi ini, silakan hubungi kami di mahuahuayayaya@gmail.com.\n\nTerima kasih telah mengunjungi Pembuat Efek Suara AI!\n\nTim Pembuat Efek Suara AI\nhttps://aisoundeffectgenerator.com",
+    "seoDesc": "",
+    "seoTitle": "Kebijakan Privasi | Pembuat Efek Suara AI"
+  },
+  "Tos": {
+    "pre": "Terakhir Diperbarui: 6 Juni 2024\n\nSelamat datang di Pembuat Efek Suara AI (\"kami\", \"kita\", \"kami\"). Dengan menggunakan situs web kami, https://aisoundeffectgenerator.com (\"Situs\"), Anda setuju dengan Syarat & Layanan ini. Harap baca dengan seksama.\n\n1. Deskripsi Layanan\nPembuat Efek Suara AI memungkinkan pengguna untuk memasukkan teks untuk menghasilkan efek suara. Fitur canggih tersedia melalui pembelian kredit.\n\n2. Kepemilikan\nKetika Anda membeli paket, Anda menerima kredit untuk menggunakan fitur canggih. Anda dapat menggunakan efek suara yang dihasilkan untuk berbagai tujuan.\n\n3. Pengumpulan Data Pengguna\nKami mengumpulkan informasi pribadi, termasuk nama, email, dan informasi pembayaran, untuk menyediakan layanan kami.\n\n4. Pengumpulan Data Non-Pribadi\nKami menggunakan kuki web untuk mengumpulkan data non-pribadi guna meningkatkan layanan kami.\n\n5. Pembaruan terhadap Syarat & Layanan\nKami dapat memperbarui Syarat & Layanan ini dari waktu ke waktu. Pengguna akan diberitahu tentang perubahan melalui email.\n\n6. Informasi Kontak\nUntuk pertanyaan atau kekhawatiran, silakan hubungi kami di mahuahuayayaya@gmail.com.\n\nDengan menggunakan Situs kami, Anda setuju dengan Syarat & Layanan ini.\n\nTerima kasih telah memilih Pembuat Efek Suara AI.\n\nTim Pembuat Efek Suara AI",
+    "seoDesc": "",
+    "seoTitle": "Syarat dan Ketentuan | Pembuat Efek Suara AI"
+  }
+}

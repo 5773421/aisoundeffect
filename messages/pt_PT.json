@@ -1,0 +1,76 @@
+{
+  "Basic": {
+    "seoDesc": "Descubra a ferramenta definitiva para criar efeitos sonoros únicos instantaneamente. O nosso gerador de efeitos sonoros de IA dá vida à sua imaginação com áudio de alta qualidade adaptado às suas necessidades.",
+    "seoTitle": "Gerador de Efeitos Sonoros de IA Gratuito & Texto Para Efeito Sonoro"
+  },
+  "Blog": {
+    "desc": "Gere qualquer efeito sonoro que deseje",
+    "h1": "O Blog do Gerador de Efeitos Sonoros de IA",
+    "seoDesc": "Crie efeitos sonoros de IA realistas e imersivos com o nosso avançado gerador de efeitos sonoros. Perfeito para desenvolvedores de jogos, cineastas e criadores de conteúdo.",
+    "seoTitle": "Blog do Gerador de Efeitos Sonoros de IA"
+  },
+  "FAQs": {
+    "a1": "Um gerador de efeitos sonoros de IA é uma ferramenta que utiliza tecnologia de inteligência artificial para criar e manipular vários efeitos sonoros. Pode gerar uma ampla gama de efeitos de áudio, como sons ambiente, ruídos de máquinas, chamadas de animais e outros, utilizando algoritmos avançados e técnicas de aprendizagem automática.",
+    "a2": "Um gerador de efeitos sonoros de IA funciona utilizando modelos de aprendizagem profunda e redes neurais para analisar e sintetizar dados de áudio. Pode aprender a partir de amostras de som existentes e depois gerar novos efeitos sonoros com base nos padrões aprendidos. A tecnologia de IA pode adaptar-se a diferentes parâmetros de entrada e produzir efeitos sonoros realistas e diversos.",
+    "a3": "Utilizar um gerador de efeitos sonoros de IA oferece vários benefícios, tais como a capacidade de criar rapidamente efeitos sonoros personalizados e realistas para diversos fins, incluindo filmes, videojogos, produção musical e projetos multimédia. Pode também poupar tempo e recursos ao automatizar o processo de design de som e fornecer uma grande variedade de efeitos de áudio de alta qualidade.",
+    "a4": "Sim, um gerador de efeitos sonoros de IA consegue imitar sons naturais com um elevado nível de precisão. Através de algoritmos avançados e aprendizagem automática, pode analisar e replicar os padrões e nuances complexos de sons naturais, como chamadas de animais, ruídos ambientais e efeitos atmosféricos, proporcionando experiências de áudio realistas e vívidas.",
+    "a5": "Sim, um gerador de efeitos sonoros de IA é adequado para produção de áudio profissional. Pode ajudar designers de som, compositores e engenheiros de áudio a criar efeitos sonoros de alta qualidade para filmes, videojogos, experiências de realidade virtual e outros projetos de media. As capacidades avançadas da tecnologia de IA podem melhorar o processo criativo e expandir as possibilidades do design de áudio.",
+    "a6": "Existem vários geradores de efeitos sonoros de IA populares disponíveis no mercado, incluindo aplicações de software, plugins e plataformas online. Alguns exemplos notáveis incluem XYZ Sound AI, SoundSense AI, SynthMaster e Noiiz AI. Estas ferramentas oferecem diferentes funcionalidades e capacidades para criar e manipular efeitos sonoros utilizando tecnologia de inteligência artificial.",
+    "q1": "O que é um gerador de efeitos sonoros de IA?",
+    "q2": "Como funciona um gerador de efeitos sonoros de IA?",
+    "q3": "Quais são os benefícios de utilizar um gerador de efeitos sonoros de IA?",
+    "q4": "Um gerador de efeitos sonoros de IA consegue imitar sons naturais com precisão?",
+    "q5": "Um gerador de efeitos sonoros de IA é adequado para produção de áudio profissional?",
+    "q6": "Quais são alguns dos geradores de efeitos sonoros de IA populares disponíveis no mercado?"
+  },
+  "Feature": {
+    "feaDesc1": "O nosso gerador de efeitos sonoros de IA permite-lhe criar efeitos sonoros personalizados para os seus projetos. Desde tons futuristas até sons da natureza, pode facilmente gerar áudio único para melhorar o seu conteúdo.",
+    "feaDesc2": "Com o nosso gerador de efeitos sonoros de IA, tem acesso a uma ampla variedade de opções para escolher. Quer precise de música de fundo, ruído ambiente ou efeitos especiais, a nossa plataforma oferece seleções diversas para atender às suas necessidades.",
+    "feaDesc3": "O nosso gerador de efeitos sonoros de IA possui uma interface intuitiva e fácil de usar. Pode navegar rapidamente pela plataforma para selecionar, personalizar e descarregar os efeitos sonoros perfeitos para os seus projetos.",
+    "feaDesc4": "Experiencie uma saída de áudio de alta qualidade com o nosso gerador de efeitos sonoros de IA. Cada efeito sonoro é meticulosamente trabalhado para oferecer clareza e profundidade excecionais, garantindo que os seus projetos tenham elementos de áudio de qualidade profissional.",
+    "feaTitle1": "Efeitos Sonoros de IA Personalizados",
+    "feaTitle2": "Ampla Variedade de Opções",
+    "feaTitle3": "Interface Fácil de Usar",
+    "feaTitle4": "Áudio de Alta Qualidade e Livre de Royalties",
+    "h2": "Funcionalidades do Gerador de Efeitos Sonoros de IA Gratuito",
+    "subTitle": "Desbloqueie a magia do Gerador de Efeitos Sonoros de IA",
+    "title": "Inovações no Gerador de Efeitos Sonoros de IA"
+  },
+  "Header": {
+    "Link1": "Início",
+    "Link2": "Playground",
+    "Link3": "Avaliações",
+    "Link4": "Blog",
+    "Link5": "FAQ"
+  },
+  "Hero": {
+    "desc": "Crie sons de IA realistas com o nosso gerador de efeitos sonoros de IA. Personalize e produza efeitos sonoros de inteligência artificial de alta qualidade para os seus projetos. Experimente agora!",
+    "h1": "Gerador de Efeitos Sonoros de IA Gratuito",
+    "startBtn": "Comece gratuitamente"
+  },
+  "HowToUse": {
+    "feaDesc1": "O campo Prompt é a sua porta de entrada para guiar a IA a compreender a sua intenção criativa.",
+    "feaDesc2": "A duração do som que espera gerar.",
+    "feaDesc3": "Botão de submissão, clique para começar a gerar",
+    "feaTitle1": "Prompt de Áudio",
+    "feaTitle2": "Duração",
+    "feaTitle3": "Submeter",
+    "h2": "Visão Geral da Interface do Gerador de Efeitos Sonoros de IA",
+    "subTitle": "O Gerador de Efeitos Sonoros de IA oferece uma variedade de parâmetros para criar os seus efeitos sonoros.",
+    "title": "Familiarize-se com a Interface do Gerador de Efeitos Sonoros de IA"
+  },
+  "Playground": {
+    "seoDesc": "",
+    "seoTitle": "Playground | Gerador de Efeitos Sonoros de IA"
+  },
+  "Privacy": {
+    "pre": "Última atualização: 6 de junho de 2024 \n\n Bem-vindo ao Gerador de Efeitos Sonoros de IA! Esta Política de Privacidade explica como recolhemos, utilizamos e protegemos as suas informações pessoais quando visita o nosso website https://geradordeefeitossonorosdeia.com. Ao utilizar o nosso website, concorda com os termos desta Política de Privacidade.\n\n1. Informações que Recolhemos\n\nInformações Pessoais: Recolhemos o seu nome, endereço de email e informações de pagamento quando efetua uma compra no nosso website.\nInformações Não Pessoais: Recolhemos dados não pessoais através do uso de cookies para melhorar a sua experiência de navegação.\n\n2. Fim da Recolha de Dados\n\nUtilizamos as suas informações pessoais para processar as suas encomendas e garantir que tem uma experiência de transação tranquila.\n\n3. Partilha de Dados\n\nNão partilhamos as suas informações pessoais com outras entidades.\n\n4. Privacidade das Crianças\n\nNão recolhemos intencionalmente quaisquer informações pessoais de crianças menores de 13 anos. Se tivermos conhecimento de que recebemos inadvertidamente informações pessoais de uma criança com idade inferior a 13 anos, iremos apagar tais informações dos nossos registos.\n\n5. Atualizações a Esta Política de Privacidade\n\nPodemos atualizar esta Política de Privacidade ocasionalmente. Se fizermos quaisquer alterações, iremos notificá-lo por email. A sua continuação a utilizar o nosso website após a publicação de alterações constituirá a sua aceitação dessas alterações.\n\n6. Contacte-nos\n\nSe tiver alguma questão ou preocupação sobre esta Política de Privacidade, por favor contacte-nos em mahuahuayayaya@gmail.com.\n\nObrigado por visitar o Gerador de Efeitos Sonoros de IA!\n\nGerador de Efeitos Sonoros de IA\nhttps://geradordeefeitossonorosdeia.com",
+    "seoDesc": "",
+    "seoTitle": "Política de Privacidade | Gerador de Efeitos Sonoros de IA"
+  },
+  "Tos": {
+    "pre": "Última atualização: 6 de junho de 2024\n\nBem-vindo ao Gerador de Efeitos Sonoros de IA (\"nós\", \"nos\", \"nosso\"). Ao utilizar o nosso website, https://geradordeefeitossonorosdeia.com (o \"Site\"), concorda com estes Termos e Serviços. Por favor, leia-os atentamente.\n\n1. Descrição do Serviço\nO Gerador de Efeitos Sonoros de IA permite aos utilizadores introduzir texto para gerar efeitos sonoros. Funcionalidades avançadas estão disponíveis mediante a compra de créditos.\n\n2. Propriedade\nAo adquirir um pacote, recebe créditos para utilizar funcionalidades avançadas. Pode usar os efeitos sonoros resultantes para uma variedade de fins.\n\n3. Recolha de Dados do Utilizador\nRecolhemos informações pessoais, incluindo o seu nome, email e informações de pagamento, para fornecer os nossos serviços.\n\n4. Recolha de Dados Não Pessoais\nUtilizamos cookies para recolher dados não pessoais para melhorar os nossos serviços.\n\n5. Atualizações aos Termos\nPodemos atualizar estes Termos & Serviços ocasionalmente. Os utilizadores serão notificados de quaisquer mudanças via email.\n\n6. Informações de Contacto\nPara quaisquer questões ou preocupações, entre em contacto connosco através de mahuahuayayaya@gmail.com.\n\nAo utilizar o nosso Site, concorda com estes Termos & Serviços.\n\nObrigado por escolher o Gerador de Efeitos Sonoros de IA.\n\nEquipa do Gerador de Efeitos Sonoros de IA",
+    "seoDesc": "",
+    "seoTitle": "Termos e Condições | Gerador de Efeitos Sonoros de IA"
+  }
+}

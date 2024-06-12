@@ -2,11 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import config from "@/config";
 import logo from "@/app/icon.png";
+import {useTranslations} from 'next-intl';
+import {localeItems, defaultLocale} from '../config';
 
 // Add the Footer to the bottom of your landing page and more.
 // The support link is connected to the config.js file. If there's no config.mailgun.supportEmail, the link won't be displayed.
 
 const Footer = () => {
+  const t = useTranslations('Basic');
   return (
     <footer className="bg-base-200 border-t border-base-content/10">
       <div className="max-w-7xl mx-auto px-8 py-24">
@@ -31,7 +34,7 @@ const Footer = () => {
             </Link>
 
             <p className="mt-3 text-sm text-base-content/80">
-              {config.appDescription}
+              {t('seoDesc')}
             </p>
             <p className="mt-3 text-sm text-base-content/60">
               Copyright © {new Date().getFullYear()} - All rights reserved
@@ -78,6 +81,21 @@ const Footer = () => {
                 <Link href="/privacy-policy" className="link link-hover">
                   Privacy policy
                 </Link>
+              </div>
+            </div>
+
+
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
+                LANGUAGE
+              </div>
+
+              <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
+                {localeItems.map(locale => {
+                  if (locale.iso === defaultLocale) return(<Link className="link link-hover" href="/"  key={locale.iso}>{locale.name}</Link>)
+                  const thehref="/"+locale.iso
+                  return (<Link className="link link-hover" href={thehref} key={locale.iso}> {locale.name}</Link>)
+                })}
               </div>
             </div>
           </div>

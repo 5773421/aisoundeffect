@@ -9,6 +9,13 @@ import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/icon.png";
 import config from "@/config";
 import { SessionProvider } from "next-auth/react";
+import LangSwitcher from './LangSwitcher';
+ 
+// import dynamic from 'next/dynamic';
+
+// const LangSwitcher = dynamic(() => import('./LangSwitcher'), {
+//   ssr: false
+// });
 
 const links: {
   href: string;
@@ -40,7 +47,7 @@ const links: {
   },
 ];
 
-const cta: JSX.Element = <ButtonSignin extraStyle="btn-primary" />;
+const cta: JSX.Element = <><LangSwitcher /><ButtonSignin extraStyle="btn-primary" /></>;
 
 // A header with a logo on the left, links in the center (like Pricing, etc...), and a CTA (like Get Started or Login) on the right.
 // The header is responsive, and on mobile, the links are hidden behind a burger button.
@@ -81,6 +88,7 @@ const Header = () => {
         </div>
         {/* Burger button to open menu on mobile */}
         <div className="flex lg:hidden">
+          <LangSwitcher />
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
@@ -117,6 +125,7 @@ const Header = () => {
             </Link>
           ))}
         </div>
+        
 
         {/* CTA on large screens */}
         <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>

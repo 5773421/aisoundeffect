@@ -28,6 +28,7 @@
     "mongoose": "^7.6.10",
     "next": "^14.1.4",
     "next-auth": "^4.24.7",
+    "next-intl": "^3.15.0",
     "next-plausible": "^3.12.0",
     "next-sitemap": "^4.2.3",
     "nextjs-toploader": "^1.6.11",
@@ -54,5 +55,12 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.3"
+  },
+  "i18n": {
+    "entry": "messages/en_US.json",
+    "entryLocale": "en_US",
+    "output": "messages",
+    "outputLocales": ["en_US", "es_ES", "zh_CN", "de_DE", "it_IT", "ja_JP", "ko_KR", "pt_PT", "cs_CZ", "fi_FI", "fr_FR", "id_ID", "lt_LT", "lv_LV", "nl_NL", "pl_PL", "ru_RU", "tr_TR", "vi_VN", "zh_TW"],
+    "splitToken": 1000
   }
 }

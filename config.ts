@@ -149,3 +149,28 @@ const config = {
 } as ConfigProps;
 
 export default config;
+
+export const locales = ['en_US', 'es_ES', 'zh_CN', 'de_DE', 'it_IT', 'ja_JP', 'ko_KR', 'pt_PT', 'cs_CZ', 'fi_FI', 'fr_FR', 'id_ID', 'lt_LT', 'lv_LV', 'nl_NL', 'pl_PL', 'ru_RU', 'tr_TR', 'vi_VN', 'zh_TW'];
+export const defaultLocale = 'en_US'
+export const localeItems= [
+  { name: "English", code: "en", iso: "en_US", dir: "ltr" },
+  { name: "español", code: "es", iso: "es_ES", dir: "ltr" },
+  { name: "中文", code: "zh_cn", iso: "zh_CN", dir: "ltr" },
+  { name: "Deutsch", code: "de", iso: "de_DE", dir: "ltr" },
+  { name: "Italiano", code: "it", iso: "it_IT", dir: "ltr" },
+  { name: "日本語", code: "ja", iso: "ja_JP", dir: "ltr" },
+  { name: "한국어", code: "ko", iso: "ko_KR", dir: "ltr" },
+  { name: "Português", code: "pt", iso: "pt_PT", dir: "ltr" },
+  { name: "čeština", code: "cs", iso: "cs_CZ", dir: "ltr" },
+  { name: "suomi", code: "fi", iso: "fi_FI", dir: "ltr" },
+  { name: "français", code: "fr", iso: "fr_FR", dir: "ltr" },
+  { name: "Bahasa Indonesia", code: "id", iso: "id_ID", dir: "ltr" },
+  { name: "lietuvių kalba", code: "lt", iso: "lt_LT", dir: "ltr" },
+  { name: "latviešu valoda", code: "lv", iso: "lv_LV", dir: "ltr" },
+  { name: "Nederlands", code: "nl", iso: "nl_NL", dir: "ltr" },
+  { name: "polski", code: "pl", iso: "pl_PL", dir: "ltr" },
+  { name: "русский", code: "ru", iso: "ru_RU", dir: "ltr" },
+  { name: "Türkçe", code: "tr", iso: "tr_TR", dir: "ltr" },
+  { name: "Tiếng Việt", code: "vi", iso: "vi_VN", dir: "ltr" },
+  { name: "中文繁體", code: "zh_TW", iso: "zh_TW", dir: "ltr" } 
+]

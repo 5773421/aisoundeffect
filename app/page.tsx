@@ -1,32 +1,6 @@
-import { Suspense } from 'react'
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Problem from "@/components/Problem";
-import FeaturesAccordion from "@/components/FeaturesAccordion";
-import Pricing from "@/components/Pricing";
-import FAQ from "@/components/FAQ";
-import CTA from "@/components/CTA";
-import Footer from "@/components/Footer";
-import IframeCom from '@/components/Iframe';
-import HowToUse from '@/components/HowToUse';
+import {redirect} from 'next/navigation';
 
-export default function Home() {
-  return (
-    <>
-      {/* <Suspense>
-        <Header />
-      </Suspense> */}
-      <main>
-        <Hero />
-        <IframeCom />
-        {/* <Problem /> */}
-        <FeaturesAccordion />
-        {/* <Pricing /> */}
-        <HowToUse />
-        <FAQ />
-        {/* <CTA /> */}
-      </main>
-      <Footer />
-    </>
-  );
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect('/en');
 }

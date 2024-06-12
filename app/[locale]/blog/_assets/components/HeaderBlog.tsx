@@ -8,7 +8,6 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "@/app/icon.png";
 import config from "@/config";
-import { categories } from "../content";
 import ButtonSignin from "@/components/ButtonSignin";
 
 const links: {
@@ -62,24 +61,6 @@ const ButtonPopoverCategories = () => {
               {({ close }) => (
                 <div className="overflow-hidden rounded-box shadow-lg ring-1 ring-base-content ring-opacity-5">
                   <div className="relative grid gap-2 bg-base-100 p-2 overflow-hidden">
-                    {categories.map((category) => (
-                      <div key={category.slug} onClick={() => close()}>
-                        <Link
-                          className="block text-left p-3 -m-1 cursor-pointer hover:bg-base-200 rounded-box duration-200"
-                          href={`/blog/category/${category.slug}`}
-                        >
-                          <div className="">
-                            <p className="font-medium mb-0.5">
-                              {category?.titleShort || category.title}
-                            </p>
-                            <p className="text-sm opacity-80">
-                              {category?.descriptionShort ||
-                                category.description}
-                            </p>
-                          </div>
-                        </Link>
-                      </div>
-                    ))}
                   </div>
                 </div>
               )}
@@ -122,20 +103,7 @@ const ButtonAccordionCategories = () => {
         </svg>
       </button>
 
-      {isOpen && (
-        <ul className="space-y-4">
-          {categories.map((category) => (
-            <li key={category.slug}>
-              <Link
-                href={`/blog/category/${category.slug}`}
-                className="text-base-content/80 hover:text-base-content duration-100 link link-hover"
-              >
-                {category?.titleShort || category.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
+
     </>
   );
 };
@@ -162,14 +130,6 @@ const HeaderBlog = () => {
             href="/"
             title={`${config.appName} homepage`}
           >
-            <Image
-              src={logo}
-              alt={`${config.appName} logo`}
-              className="w-8"
-              priority={true}
-              width={32}
-              height={32}
-            />
             <span className="font-extrabold text-lg">{config.appName}</span>
           </Link>
         </div>

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
+import {getTranslations} from 'next-intl/server';
+import {useTranslations} from 'next-intl';
 
 // CHATGPT PROMPT TO GENERATE YOUR PRIVACY POLICY — replace with your own data 👇
 
@@ -25,12 +27,21 @@ import config from "@/config";
 
 // Please write a simple privacy policy for my site. Add the current date.  Do not add or explain your reasoning. Answer:
 
-export const metadata = getSEOTags({
-  title: `Privacy Policy | ${config.appName}`,
-  canonicalUrlRelative: "/privacy-policy",
-});
+export async function generateMetadata({params: {locale}}: any) {
+  const t = await getTranslations({locale, namespace: 'Privacy'});
+ 
+  // return {
+  //   title: t('title')
+  // };
+  return getSEOTags({
+    title: t('seoTitle'),
+    // description: t('seoDesc'),
+    canonicalUrlRelative: "/privacy-policy",
+  })
+}
 
 const PrivacyPolicy = () => {
+  const t = useTranslations('Privacy');
   return (
     <main className="max-w-xl mx-auto">
       <div className="p-5">
@@ -57,38 +68,7 @@ const PrivacyPolicy = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: June 6, 2024
-
-Welcome to AI Sound Effect Generator! This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website https://aisoundeffectgenerator.com. By using our website, you agree to the terms of this Privacy Policy.
-
-1. Information We Collect
-
-Personal Information: We collect your name, email address, and payment information when you make a purchase on our website.
-Non-Personal Information: We collect non-personal data through the use of web cookies to improve your browsing experience.
-2. Purpose of Data Collection
-
-We use your personal information to process your orders and ensure you have a smooth transaction experience.
-
-3. Data Sharing
-
-We do not share your personal information with any other parties.
-
-4. Children's Privacy
-
-We do not knowingly collect any personal information from children under the age of 13. If we become aware that we have inadvertently received personal information from a child under the age of 13, we will delete such information from our records.
-
-5. Updates to This Privacy Policy
-
-We may update this Privacy Policy from time to time. If we make any changes, we will notify you by email. Your continued use of our website following the posting of changes will constitute your acceptance of those changes.
-
-6. Contact Us
-
-If you have any questions or concerns about this Privacy Policy, please contact us at mahuahuayayaya@gmail.com.
-
-Thank you for visiting AI Sound Effect Generator!
-
-AI Sound Effect Generator
-https://aisoundeffectgenerator.com`}
+          {t('pre')}
         </pre>
       </div>
     </main>

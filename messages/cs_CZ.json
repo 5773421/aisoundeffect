@@ -1,0 +1,76 @@
+{
+  "Basic": {
+    "seoDesc": "Objevte konečný nástroj pro okamžité vytváření unikátních zvukových efektů. Náš generátor zvukových efektů umělé inteligence oživuje vaši představivost vysokokvalitními zvuky přizpůsobenými vašim potřebám.",
+    "seoTitle": "Generátor zvukových efektů AI zdarma a převod z textu na zvukový efekt"
+  },
+  "Blog": {
+    "desc": "Vytvořte si jakýkoli zvukový efekt, který chcete",
+    "h1": "Blog o generátoru zvukových efektů AI",
+    "seoDesc": "Vytvářejte realistické a pohlcující zvukové efekty AI s naším pokročilým generátorem zvukových efektů. Ideální pro vývojáře her, filmaře a tvůrce obsahu.",
+    "seoTitle": "Blog generátoru zvukových efektů AI"
+  },
+  "FAQs": {
+    "a1": "Generátor zvukových efektů AI je nástroj, který využívá technologii umělé inteligence k vytváření a manipulaci různých zvukových efektů. Může generovat širokou škálu zvukových efektů, jako jsou okolní zvuky, zvuky strojů, volání zvířat a další, pomocí pokročilých algoritmů a technik strojového učení.",
+    "a2": "Generátor zvukových efektů AI pracuje pomocí modelů hlubokého učení a neuronových sítí k analýze a syntéze zvukových dat. Může se učit z existujících zvukových vzorků a poté generovat nové zvukové efekty na základě naučených vzorů. AI technologie se může přizpůsobit různým vstupním parametrům a produkovat realistické a rozmanité zvukové efekty.",
+    "a3": "Používání generátoru zvukových efektů AI nabízí několik výhod, jako je schopnost rychle vytvářet vlastní a realistické zvukové efekty pro různé účely včetně filmů, videoher, hudební produkce a multimediálních projektů. Může také ušetřit čas a zdroje automatizací procesu zvukového designu a poskytováním širokého spektra vysokokvalitních zvukových efektů.",
+    "a4": "Ano, generátor zvukových efektů AI dokáže věrohodně napodobit přírodní zvuky s vysokou úrovní přesnosti. Díky pokročilým algoritmům a strojovému učení může analyzovat a replikovat složité vzory a nuance přírodních zvuků, jako jsou volání zvířat, environmentální hluky a atmosférické efekty, poskytující realistické a živé zvukové zážitky.",
+    "a5": "Ano, generátor zvukových efektů AI je vhodný pro profesionální zvukovou produkci. Může pomoci zvukovým designérům, skladatelům a zvukovým inženýrům při tvorbě vysokokvalitních zvukových efektů pro filmy, videohry, zážitky virtuální reality a další mediální projekty. Pokročilé schopnosti AI technologie mohou obohatit tvůrčí proces a rozšířit možnosti zvukového designu.",
+    "a6": "Na trhu je k dispozici několik populárních generátorů zvukových efektů AI, včetně softwarových aplikací, pluginů a online platforem. Některé známé příklady zahrnují XYZ Sound AI, SoundSense AI, SynthMaster a Noiiz AI. Tyto nástroje nabízejí různé funkce a schopnosti pro vytváření a manipulaci zvukových efektů pomocí technologie umělé inteligence.",
+    "q1": "Co je to generátor zvukových efektů AI?",
+    "q2": "Jak funguje generátor zvukových efektů AI?",
+    "q3": "Jaké jsou výhody používání generátoru zvukových efektů AI?",
+    "q4": "Může generátor zvukových efektů AI přesně napodobit přírodní zvuky?",
+    "q5": "Je generátor zvukových efektů AI vhodný pro profesionální zvukovou produkci?",
+    "q6": "Které jsou některé populární generátory zvukových efektů AI dostupné na trhu?"
+  },
+  "Feature": {
+    "feaDesc1": "Náš generátor zvukových efektů AI vám umožňuje vytvářet přizpůsobené zvukové efekty pro vaše projekty. Od futuristických tónů po zvuky přírody můžete snadno generovat jedinečné zvuky, které zvýší váš obsah.",
+    "feaDesc2": "S naším generátorem zvukových efektů AI máte přístup k široké škále možností. Ať už potřebujete pozadí hudby, okolní hluk nebo speciální efekty, naše platforma poskytuje rozmanité výběry, které vyhovují vašim potřebám.",
+    "feaDesc3": "Náš generátor zvukových efektů AI nabízí intuitivní a snadno ovladatelné rozhraní. Rychle se můžete pohybovat po platformě, abyste vybrali, přizpůsobili a stáhli dokonalé zvukové efekty pro své projekty.",
+    "feaDesc4": "Ožijte vysokokvalitním audiovýstupem s naším generátorem zvukových efektů AI. Každý zvukový efekt je pečlivě vytvořen pro doručení výjimečné čistoty a hloubky, zajistí, že vaše projekty budou mít profesionální zvukové prvky.",
+    "feaTitle1": "Přizpůsobené zvukové efekty AI",
+    "feaTitle2": "Široká škála možností",
+    "feaTitle3": "Snadno ovladatelné rozhraní",
+    "feaTitle4": "Vysoká kvalita a royalty-free",
+    "h2": "Funkce zdarma generátoru zvukových efektů AI",
+    "subTitle": "Odemkněte kouzlo generátoru zvukových efektů AI",
+    "title": "Inovace v generátoru zvukových efektů AI"
+  },
+  "Header": {
+    "Link1": "Domů",
+    "Link2": "Hřiště",
+    "Link3": "Recenze",
+    "Link4": "Blog",
+    "Link5": "FAQ"
+  },
+  "Hero": {
+    "desc": "Vytvářejte realistické zvuky umělé inteligence pomocí našeho generátoru zvukových efektů AI. Přizpůsobte si a vytvářejte vysokokvalitní umělé zvukové efekty pro své projekty. Vyzkoušejte to nyní!",
+    "h1": "Generátor zvukových efektů AI zdarma",
+    "startBtn": "Začněte zdarma"
+  },
+  "HowToUse": {
+    "feaDesc1": "Pole Proptt je vaší bránou k řízení, jak AI porozumí vašemu tvůrčímu záměru.",
+    "feaDesc2": "Doba trvání zvuku, který očekáváte vygenerovat.",
+    "feaDesc3": "Tlačítko Odeslat, kliknutím začněte generovat",
+    "feaTitle1": "Zvukový podnět",
+    "feaTitle2": "Doba trvání",
+    "feaTitle3": "Odeslat",
+    "h2": "Přehled rozhraní generátoru zvukových efektů AI",
+    "subTitle": "Generátor zvukových efektů AI nabízí řadu parametrů pro vytváření vašich zvukových efektů.",
+    "title": "Seznamte se s rozhraním generátoru zvukových efektů AI"
+  },
+  "Playground": {
+    "seoDesc": "",
+    "seoTitle": "Hřiště | Generátor zvukových efektů AI"
+  },
+  "Privacy": {
+    "pre": "Poslední aktualizace: 6. června 2024 \n\nVítejte u generátoru zvukových efektů AI! Tato zásady ochrany osobních údajů vysvětluje, jak shromažďujeme, používáme a chráníme vaše osobní údaje při návštěvě naší webové stránky https://aisoundeffectgenerator.com. Používáním naší webové stránky souhlasíte s podmínkami této zásady ochrany osobních údajů.\n\n1. O shromažďovaných informacích\nOsobní údaje: Shromažďujeme vaše jméno, e-mailovou adresu a platové údaje při nákupu naší webové stránky.\nNeosobní údaje: Shromažďujeme neosobní údaje prostřednictvím webových cookies pro zlepšení vašeho procházení našich stránek.\n\n2. Účel shromažďování dat\nVaše osobní údaje používáme k zpracování vašich objednávek a zajistění plynulého zážitku z transakce.\n\n3. Sdílení dat\nVaše osobní údaje nesdílíme s žádnými jinými stranami.\n\n4. Ochrana soukromí dětí\nVědomě neshromažďujeme žádné osobní údaje o dětech mladších 13 let. Pokud zjistíme, že jsme omylem obdrželi osobní údaje od dítěte mladšího 13 let, smažeme tyto informace z našich záznamů.\n\n5. Aktualizace této zásady ochrany osobních údajů\nTuto zásadu ochrany osobních údajů můžeme aktualizovat. Pokud provedeme jakékoli změny, upozorníme vás e-mailem. Vaše další používání naší webové stránky po zveřejnění změn bude znamenat vaše přijetí těchto změn.\n\n6. Kontaktujte nás\nMáte-li nějaké dotazy nebo obavy ohledně této zásady ochrany osobních údajů, obraťte se na nás na adrese mahuahuayayaya@gmail.com.\n\nDěkujeme za návštěvu generátoru zvukových efektů AI!\n\nTým generátoru zvukových efektů AI\nhttps://aisoundeffectgenerator.com",
+    "seoDesc": "",
+    "seoTitle": "Zásady ochrany osobních údajů | Generátor zvukových efektů AI"
+  },
+  "Tos": {
+    "pre": "Poslední aktualizace: 6. června 2024\n\nVítejte u generátoru zvukových efektů AI (\"my\", \"nás\", \"naše\"). Používáním naší webové stránky, https://aisoundeffectgenerator.com (\"Stránka\"), souhlasíte s těmito podmínkami služby. Prosím, pečlivě si je přečtěte.\n\n1. Popis služby\nGenerátor zvukových efektů AI umožňuje uživatelům zadávat text k vytváření zvukových efektů. Pokročilé funkce jsou k dispozici prostřednictvím nákupu kreditů.\n\n2. Vlastnictví\nPři zakoupení balíčku obdržíte kredity pro využití pokročilých funkcí. Výsledné zvukové efekty můžete použít pro různé účely.\n\n3. Shromažďování uživatelských dat\nShromažďujeme osobní údaje, včetně vašeho jména, e-mailu a platebních údajů, k poskytnutí našich služeb.\n\n4. Shromažďování neosobních údajů\nPro zlepšení našich služeb používáme webové cookies k shromažďování neosobních údajů.\n\n5. Aktualizace podmínek\nTěchto Podmínek služby se můžeme čas od času aktualizovat. Uživatelé budou o jakýchkoli změnách informováni prostřednictvím e-mailu.\n\n6. Kontaktní informace\nPro jakékoliv dotazy nebo obavy nás kontaktujte na adrese mahuahuayayaya@gmail.com.\n\nPoužíváním naší Stránky souhlasíte s těmito Podmínkami služby.\n\nDěkujeme, že jste si vybrali generátor zvukových efektů AI.\n\nTým generátoru zvukových efektů AI",
+    "seoDesc": "",
+    "seoTitle": "Obchodní podmínky | Generátor zvukových efektů AI"
+  }
+}

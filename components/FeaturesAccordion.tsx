@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import type { JSX } from "react";
 import Image from "next/image";
 import fea from "@/app/fea.png";
+import {useTranslations} from 'next-intl';
 
 interface Feature {
   title: string;
@@ -22,89 +23,6 @@ interface Feature {
 // - path: The path to the media (for better SEO, try to use a local path)
 // - format: The format of the media (if type is 'video')
 // - alt: The alt text of the image (if type is 'image')
-const features = [
-  {
-    title: "Customized AI Sound Effects",
-    description:
-      "Our AI sound effect generator allows you to create customized sound effects for your projects. From futuristic tones to nature sounds, you can easily generate unique audio to enhance your content.",
-    // type: "video",
-    type: 'image',
-    path: fea,
-    alt: "A computer",
-    // format: "video/webm",
-    // svg: (
-    //   <svg
-    //     xmlns="http://www.w3.org/2000/svg"
-    //     fill="none"
-    //     viewBox="0 0 24 24"
-    //     strokeWidth={1.5}
-    //     stroke="currentColor"
-    //     className="w-6 h-6"
-    //   >
-    //     <path
-    //       strokeLinecap="round"
-    //       d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
-    //     />
-    //   </svg>
-    // ),
-  },
-  {
-    title: "Wide Range of Options",
-    description:
-      "With our AI sound effect generator, you have access to a wide range of options to choose from. Whether you need background music, ambient noise, or special effects, our platform provides diverse selections to suit your needs.",
-    type: "image",
-    path: fea,
-    alt: "A computer",
-    // svg: (
-    //   <svg
-    //     xmlns="http://www.w3.org/2000/svg"
-    //     fill="none"
-    //     viewBox="0 0 24 24"
-    //     strokeWidth={1.5}
-    //     stroke="currentColor"
-    //     className="w-6 h-6"
-    //   >
-    //     <path
-    //       strokeLinecap="round"
-    //       strokeLinejoin="round"
-    //       d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
-    //     />
-    //   </svg>
-    // ),
-  },
-  {
-    title: "Easy to Use Interface",
-    description:
-      "Our AI sound effect generator features an intuitive and easy-to-use interface. You can quickly navigate through the platform to select, customize, and download the perfect sound effects for your projects.",
-    type: 'image',
-    path: fea,
-    alt: "A computer",
-    // svg: (
-    //   <svg
-    //     xmlns="http://www.w3.org/2000/svg"
-    //     fill="none"
-    //     viewBox="0 0 24 24"
-    //     strokeWidth={1.5}
-    //     stroke="currentColor"
-    //     className="w-6 h-6"
-    //   >
-    //     <path
-    //       strokeLinecap="round"
-    //       strokeLinejoin="round"
-    //       d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
-    //     />
-    //   </svg>
-    // ),
-  },
-  {
-    title: "High-Quality and Royalty-Free",
-    description:
-      "Experience high-quality audio output with our AI sound effect generator. Each sound effect is meticulously crafted to deliver exceptional clarity and depth, ensuring that your projects have professional-grade audio elements.",
-    type: 'image',
-    path: fea,
-    alt: '',
-  },
-] as Feature[];
 
 // An SEO-friendly accordion component including the title and a description (when clicked.)
 const Item = ({
@@ -119,7 +37,7 @@ const Item = ({
 }) => {
   const accordion = useRef(null);
   const { title, description, svg } = feature;
-
+  
   return (
     <li>
       <button
@@ -184,7 +102,7 @@ const Media = ({ feature }: { feature: Feature }) => {
     );
   } else if (type === "image") {
     return (
-      <Image
+      <img
         src={path}
         alt={alt}
         className={`${style}`}
@@ -201,6 +119,86 @@ const Media = ({ feature }: { feature: Feature }) => {
 // By default, the first feature is selected. When a feature is clicked, the others are closed.
 const FeaturesAccordion = () => {
   const [featureSelected, setFeatureSelected] = useState<number>(0);
+  const t = useTranslations('Feature');
+
+
+  const features = [
+    {
+      title: t('feaTitle1'),
+      description: t('feaDesc1'),
+      // type: "video",
+      type: 'image',
+      path: fea,
+      alt: t('feaTitle1'),
+      // format: "video/webm",
+      // svg: (
+      //   <svg
+      //     xmlns="http://www.w3.org/2000/svg"
+      //     fill="none"
+      //     viewBox="0 0 24 24"
+      //     strokeWidth={1.5}
+      //     stroke="currentColor"
+      //     className="w-6 h-6"
+      //   >
+      //     <path
+      //       strokeLinecap="round"
+      //       d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+      //     />
+      //   </svg>
+      // ),
+    },
+    {
+      title: t('feaTitle2'),
+      description: t('feaDesc2'),
+      path: fea,
+      alt: t('feaTitle2'),
+      // svg: (
+      //   <svg
+      //     xmlns="http://www.w3.org/2000/svg"
+      //     fill="none"
+      //     viewBox="0 0 24 24"
+      //     strokeWidth={1.5}
+      //     stroke="currentColor"
+      //     className="w-6 h-6"
+      //   >
+      //     <path
+      //       strokeLinecap="round"
+      //       strokeLinejoin="round"
+      //       d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
+      //     />
+      //   </svg>
+      // ),
+    },
+    {
+      title: t('feaTitle3'),
+      description: t('feaDesc3'),
+      type: 'image',
+      path: fea,
+      alt: t('feaTitle3'),
+      // svg: (
+      //   <svg
+      //     xmlns="http://www.w3.org/2000/svg"
+      //     fill="none"
+      //     viewBox="0 0 24 24"
+      //     strokeWidth={1.5}
+      //     stroke="currentColor"
+      //     className="w-6 h-6"
+      //   >
+      //     <path
+      //       strokeLinecap="round"
+      //       strokeLinejoin="round"
+      //       d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+      //     />
+      //   </svg>
+      // ),
+    },
+    {
+      title: t('feaTitle4'),
+      description: t('feaDesc4'),
+      path: fea,
+      alt: t('feaTitle4'),
+    },
+  ] as Feature[];
 
   return (
     <section

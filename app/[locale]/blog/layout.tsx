@@ -9,7 +9,7 @@ export default async function LayoutBlog({ children }: { children: any }) {
         <HeaderBlog />
       </Suspense> */}
 
-      <main className="min-h-screen max-w-6xl mx-auto p-8">{children}</main>
+      <div className="min-h-screen max-w-6xl mx-auto p-8">{children}</div>
 
       <div className="h-24" />
 

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
+import {getTranslations} from 'next-intl/server';
+import {useTranslations} from 'next-intl';
 
 // CHATGPT PROMPT TO GENERATE YOUR TERMS & SERVICES — replace with your own data 👇
 
@@ -25,12 +27,22 @@ import config from "@/config";
 
 // Please write a simple Terms & Services for my site. Add the current date. Do not add or explain your reasoning. Answer:
 
-export const metadata = getSEOTags({
-  title: `Terms and Conditions | ${config.appName}`,
-  canonicalUrlRelative: "/tos",
-});
+
+export async function generateMetadata({params: {locale}}: any) {
+  const t = await getTranslations({locale, namespace: 'Tos'});
+ 
+  // return {
+  //   title: t('title')
+  // };
+  return getSEOTags({
+    title: t('seoTitle'),
+    // description: t('seoDesc'),
+    canonicalUrlRelative: "/playground",
+  })
+}
 
 const TOS = () => {
+  const t = useTranslations('Privacy');
   return (
     <main className="max-w-xl mx-auto">
       <div className="p-5">
@@ -57,34 +69,7 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: June 6, 2024
-
-Welcome to AI Sound Effect Generator ("we", "us", "our"). By using our website, https://aisoundeffectgenerator.com (the "Site"), you agree to these Terms & Services. Please read them carefully.
-
-1. Description of Service
-AI Sound Effect Generator allows users to enter text to generate sound effects. Advanced features are available through the purchase of credits.
-
-2. Ownership
-When you purchase a package, you receive credits to use advanced features. You may use the resulting sound effects for a variety of purposes.
-
-3. User Data Collection
-We collect personal information, including your name, email, and payment information, to provide our services.
-
-4. Non-Personal Data Collection
-We use web cookies to collect non-personal data to improve our services.
-
-5. Updates to the Terms
-We may update these Terms & Services from time to time. Users will be notified of any changes via email.
-
-6. Contact Information
-For any questions or concerns, please contact us at mahuahuayayaya@gmail.com.
-
-By using our Site, you agree to these Terms & Services.
-
-Thank you for choosing AI Sound Effect Generator.
-
-AI Sound Effect Generator Team
-`}
+          {t('pre')}
         </pre>
       </div>
     </main>

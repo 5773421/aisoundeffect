@@ -1,6 +1,5 @@
 import type { JSX } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import BadgeCategory from "./BadgeCategory";
 import Avatar from "./Avatar";
 import { articleType } from "../content";
@@ -29,15 +28,6 @@ const CardArticle = ({
           rel="bookmark"
         >
           <figure>
-            <Image
-              src={article.image.src}
-              alt={article.image.alt}
-              width={600}
-              height={338}
-              priority={isImagePriority}
-              placeholder="blur"
-              className="aspect-video object-center object-cover hover:scale-[1.03] duration-200 ease-in-out"
-            />
           </figure>
         </Link>
       )}

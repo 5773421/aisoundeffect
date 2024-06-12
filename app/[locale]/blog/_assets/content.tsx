@@ -1,5 +1,5 @@
 import type { JSX } from "react";
-import Image, { StaticImageData } from "next/image";
+import { StaticImageData } from "next/image";
 import marcImg from "@/app/blog/_assets/images/authors/marc.png";
 import introducingSupabaseImg from "@/public/blog/introducing-supabase/header.png";
 import demo from '@/app/demo.png';
@@ -22,31 +22,6 @@ const categorySlugs: { [key: string]: string } = {
   tutorial: "tutorial",
 };
 
-// All the blog categories data display in the /blog/category/[categoryI].js pages.
-export const categories: categoryType[] = [
-  {
-    // The slug to use in the URL, from the categorySlugs object above.
-    slug: categorySlugs.feature,
-    // The title to display the category title (h1), the category badge, the category filter, and more. Less than 60 characters.
-    title: "New Features",
-    // A short version of the title above, display in small components like badges. 1 or 2 words
-    titleShort: "Features",
-    // The description of the category to display in the category page. Up to 160 characters.
-    description:
-      "Here are the latest features we've added to ShipFast. I'm constantly improving our product to help you ship faster.",
-    // A short version of the description above, only displayed in the <Header /> on mobile. Up to 60 characters.
-    descriptionShort: "Latest features added to ShipFast.",
-  },
-  {
-    slug: categorySlugs.tutorial,
-    title: "How Tos & Tutorials",
-    titleShort: "Tutorials",
-    description:
-      "Learn how to use ShipFast with these step-by-step tutorials. I'll show you how to ship faster and save time.",
-    descriptionShort:
-      "Learn how to use ShipFast with these step-by-step tutorials.",
-  },
-];
 
 // ==================================================================================================================================================================
 // BLOG AUTHORS 📝
@@ -210,7 +185,6 @@ export const articles: articleType[] = [
       "Artificial Intelligence (AI) has revolutionized various industries, including sound design. AI sound effect generator leverage advanced algorithms to create realistic and dynamic soundscapes from simple text prompts. These tools are invaluable for content creators, game developers, filmmakers, and more.",
     // An array of categories of the article. It's used to generate the category badges, the category filter, and more.
     categories: [
-      categories.find((category) => category.slug === categorySlugs.feature),
     ],
     // The author of the article. It's used to generate a link to the author's bio page.
     author: authors.find((author) => author.slug === authorSlugs.marc),

@@ -12,14 +12,6 @@ const Avatar = ({ article }: { article: articleType }) => {
       rel="author"
     >
       <span itemProp="author">
-        <Image
-          src={article.author.avatar}
-          // alt={`Avatar of ${article.author.name}`}
-          alt=""
-          className="w-7 h-7 rounded-full object-cover object-center"
-          width={28}
-          height={28}
-        />
       </span>
       <span className="group-hover:underline">{article.author.name}</span>
     </Link>
