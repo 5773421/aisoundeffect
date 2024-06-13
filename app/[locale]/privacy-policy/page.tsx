@@ -36,7 +36,7 @@ export async function generateMetadata({params: {locale}}: any) {
   return getSEOTags({
     title: t('seoTitle'),
     // description: t('seoDesc'),
-    canonicalUrlRelative: "/privacy-policy",
+    canonicalUrlRelative: locale ? '/' + locale + "/privacy-policy" : "/privacy-policy",
   })
 }
 

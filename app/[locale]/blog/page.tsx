@@ -15,14 +15,13 @@ import {getTranslations} from 'next-intl/server';
 
 export async function generateMetadata({params: {locale}}: any) {
   const t = await getTranslations({locale, namespace: 'Blog'});
- 
   // return {
   //   title: t('title')
   // };
   return getSEOTags({
     title: t('seoTitle'),
     description: t('seoDesc'),
-    canonicalUrlRelative: "/blog",
+    canonicalUrlRelative: locale ? '/' + locale + "/blog" : "/blog",
   })
 }
 

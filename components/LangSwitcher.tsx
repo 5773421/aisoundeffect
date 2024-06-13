@@ -15,7 +15,7 @@ const LangSwitcher: any = () => {
       return;
     }
     if (value === 'en_US') {
-      const newPathName = pathname.replace(lang, '');
+      const newPathName = pathname.replace(('/' + lang), '');
       console.log('newPathName', newPathName);
       router.push(newPathName);
       return;
