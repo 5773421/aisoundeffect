@@ -66,6 +66,7 @@ const Footer = () => {
                 {/* <a href="/#" target="_blank" className="link link-hover">
                   Affiliates
                 </a> */}
+                <a href='https://www.sideprojectors.com/project/44078/ai-sound-effect' alt='Check out Ai Sound Effect  at @SideProjectors'><img src='https://www.sideprojectors.com/img/badges/badge_show_black.png' alt='Check out Ai Sound Effect at @SideProjectors' /></a>
               </div>
             </div>
 
