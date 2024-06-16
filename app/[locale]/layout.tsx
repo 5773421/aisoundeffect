@@ -45,6 +45,17 @@ export default function RootLayout({ children }: { children: ReactNode}) {
         <head>
           {/* <PlausibleProvider domain={config.domainName} /> */}
           <script defer data-domain="aisoundeffectgenerator.com" src="https://click.pageview.click/js/script.js"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                    
+                      gtag('config', 'G-T5J7K5B9VW');
+                      `,
+            }}
+          ></script>
         </head>
       )}
       <body>
