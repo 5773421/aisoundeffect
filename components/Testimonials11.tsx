@@ -1,7 +1,6 @@
 "use client";
 
 import { JSX, useState, useEffect, useRef } from "react";
-import Image from "next/image";
 import { StaticImageData } from "next/image";
 import config from "@/config";
 
@@ -180,15 +179,7 @@ const Testimonial = ({ i }: { i: number }) => {
         </blockquote>
         <figcaption className="relative flex items-center justify-start gap-4 pt-4 mt-4 border-t border-base-content/5">
           <div className="overflow-hidden rounded-full bg-base-300 shrink-0">
-            {testimonial.img ? (
-              <Image
-                className="w-10 h-10 rounded-full object-cover"
-                src={list[i].img}
-                alt={`${list[i].name}'s testimonial for ${config.appName}`}
-                width={48}
-                height={48}
-              />
-            ) : (
+            {testimonial.img ? undefined : (
               <span className="w-10 h-10 rounded-full flex justify-center items-center text-lg font-medium bg-base-300">
                 {testimonial.name.charAt(0)}
               </span>
@@ -399,17 +390,7 @@ const Testimonials11 = () => {
                   </blockquote>
                   <figcaption className="relative flex items-center justify-start gap-4 pt-4 mt-4 border-t border-base-content/5">
                     <div className="overflow-hidden rounded-full bg-base-300 shrink-0">
-                      {list[list.length - 1].img ? (
-                        <Image
-                          className="w-12 h-12 rounded-full object-cover"
-                          src={list[list.length - 1].img}
-                          alt={`${
-                            list[list.length - 1].name
-                          }'s testimonial for ${config.appName}`}
-                          width={48}
-                          height={48}
-                        />
-                      ) : (
+                      {list[list.length - 1].img ? undefined : (
                         <span className="w-12 h-12 rounded-full flex justify-center items-center text-xl font-medium bg-base-300">
                           {list[list.length - 1].name.charAt(0)}
                         </span>

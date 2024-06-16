@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const avatars: {
   alt: string;
   src: string;
@@ -34,13 +32,6 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
       <div className={`-space-x-5 avatar-group justy-start`}>
         {avatars.map((image, i) => (
           <div className="avatar w-12 h-12" key={i}>
-            <Image
-              src={image.src}
-              alt={image.alt}
-              priority={priority}
-              width={50}
-              height={50}
-            />
           </div>
         ))}
       </div>

@@ -10,7 +10,8 @@ const nextConfig = {
       "pbs.twimg.com",
       "images.unsplash.com",
       "logos-world.net",
-      'img.aestheticwallpaperai.com'
+      'img.aestheticwallpaperai.com',
+      'https://imgs.aestheticwallpaperai.com'
     ],
   },
 };

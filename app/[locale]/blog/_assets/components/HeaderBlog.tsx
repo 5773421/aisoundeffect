@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { Popover, Transition } from "@headlessui/react";
 import Link from "next/link";
-import Image from "next/image";
 import logo from "@/app/icon.png";
 import config from "@/config";
 import ButtonSignin from "@/components/ButtonSignin";
@@ -190,12 +189,10 @@ const HeaderBlog = () => {
               title={`${config.appName} homepage`}
               href="/"
             >
-              <Image
-                src={logo}
+              <img
+                src='https://imgs.aestheticwallpaperai.com/aisoundlogo.png'
                 alt={`${config.appName} logo`}
                 className="w-8"
-                placeholder="blur"
-                priority={true}
                 width={32}
                 height={32}
               />

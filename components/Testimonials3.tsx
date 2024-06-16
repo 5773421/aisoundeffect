@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { StaticImageData } from "next/image";
+
 import config from "@/config";
 
 // The list of your testimonials. It needs 3 items to fill the row.
@@ -7,7 +6,7 @@ const list: {
   username?: string;
   name: string;
   text: string;
-  img?: string | StaticImageData;
+  img?: string | any;
 }[] = [
   {
     // Optional, use for social media like Twitter. Does not link anywhere but cool to display
@@ -59,15 +58,7 @@ const Testimonial = ({ i }: { i: number }) => {
             </div>
 
             <div className="overflow-hidden rounded-full bg-base-300 shrink-0">
-              {testimonial.img ? (
-                <Image
-                  className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover"
-                  src={list[i].img}
-                  alt={`${list[i].name}'s testimonial for ${config.appName}`}
-                  width={48}
-                  height={48}
-                />
-              ) : (
+              {testimonial.img ? undefined : (
                 <span className="w-10 h-10 md:w-12 md:h-12 rounded-full flex justify-center items-center text-lg font-medium bg-base-300">
                   {testimonial.name.charAt(0)}
                 </span>
