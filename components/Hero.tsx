@@ -39,13 +39,36 @@ const Hero = () => {
         <TestimonialsAvatars priority={true} />
       </div>
       <div className="lg:w-full">
-        <img
+        {/* <img
           src='https://img.aestheticwallpaperai.com/wallpapers%2FWechatIMG350.png'
           alt="Product Demo"
           className="w-full"
           width={500}
           height={500}
-        />
+        /> */}
+        <div className={'rounded-2xl aspect-square w-full sm:w-[26rem]'}>
+          <figure>
+            <figcaption><span className='text-base font-semibold leading-7 text-gray-900'>Audio Prompt:</span> A dog barking behind a fence</figcaption>
+            <audio controls src="https://imgs.aestheticwallpaperai.com/dog_barking_sound_effect.wav"></audio>
+          </figure>
+
+          <figure className='mt-5'>
+            <figcaption><span className='text-base font-semibold leading-7 text-gray-900'>Audio Prompt:</span> The sound of thunderstorm</figcaption>
+            <audio controls src="https://imgs.aestheticwallpaperai.com/rain_sound_effect.wav"></audio>
+          </figure>
+
+          <figure className='mt-5'>
+            <figcaption><span className="text-base font-semibold leading-7 text-gray-900">Audio Prompt:</span> Fireworks exploding during a show</figcaption>
+            <audio controls src="https://imgs.aestheticwallpaperai.com/fireworks_sound_effect.wav"></audio>
+          </figure>
+
+          <figure className='mt-5'>
+            <figcaption><span className="text-base font-semibold leading-7 text-gray-900">Audio Prompt:</span> Typing on a keyboard</figcaption>
+            <audio controls src="https://imgs.aestheticwallpaperai.com/type_on_keyboard_sound_effect.wav"></audio>
+          </figure>
+        </div>
+
+        
         {/* <video
           className={'rounded-2xl aspect-square w-full sm:w-[26rem]'}
           autoPlay
@@ -56,7 +79,7 @@ const Hero = () => {
           width={500}
           height={500}
         >
-          <source src={'https://img.aestheticwallpaperai.com/wallpapers%2Fdemo.mov'} type={'video'} />
+          <source src={'https://imgs.aestheticwallpaperai.com/demo.mp4'} type={'video/mp4'} />
         </video> */}
       </div>
     </section>
