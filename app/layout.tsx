@@ -1,5 +1,6 @@
 import {ReactNode} from 'react';
 import './globals.css';
+import '@radix-ui/themes/styles.css';
 
 type Props = {
   children: ReactNode;
