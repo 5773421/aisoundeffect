@@ -34,6 +34,20 @@ export async function POST(req: NextRequest) {
     //     user.customerId = customerId;
     //     user.hasAccess = true;
     //     await user.save();
+    const lastM = new Date(new Date().setMonth(new Date().getMonth() - 1));
+    const creditArr = user.credits.filter((item: any) => (item.ctime > lastM) && item.credit);
+    const credits = creditArr.reduce((pre: number, item: any) => {
+        return pre + item.credit;
+    }, 0);
+    if (!credits) {
+      return NextResponse.json(
+        { error: "Credits are not enough!" },
+        { status: 400 }
+      );
+    }
+    creditArr[0] = creditArr[0] - 1;
+    user.credits = [...creditArr];
+    await user.save();
 
     const { prompt, start, total, steps } = body;
     const result: any = {};
