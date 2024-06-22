@@ -34,9 +34,13 @@ const Create = () => {
       "steps": steps,
     };
 
-    const result: any = await apiClient.post("/gen", requestData);
-    console.log('result', result);
-    setAudioUrl(result?.url || '');
+    try {
+      const result: any = await apiClient.post("/gen", requestData);
+      console.log('result', result);
+      setAudioUrl(result?.url || '');
+    } catch (e) {
+      setLoading(false);
+    }
     setLoading(false);
   };
   return (
