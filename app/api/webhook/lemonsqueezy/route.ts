@@ -80,6 +80,10 @@ export async function POST(req: NextRequest) {
         user.variantId = variantId;
         user.customerId = customerId;
         user.hasAccess = true;
+        user.credits = [...user.credits, {
+          credit: 100,
+          ctime: new Date(),
+        }]
         await user.save();
 
         // Extra: send email with user link, product page, etc...
@@ -100,6 +104,9 @@ export async function POST(req: NextRequest) {
 
         // Revoke access to your product
         user.hasAccess = false;
+        const credits = [...user.credits];
+        credits.pop();
+        user.credits = user.credits.slice(0, -1);
         await user.save();
 
         break;
