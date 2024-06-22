@@ -6,6 +6,7 @@ import {getTranslations} from 'next-intl/server';
 import { Slider, Button, Tooltip, Spinner } from '@radix-ui/themes';
 import { PinBottomIcon, InfoCircledIcon } from '@radix-ui/react-icons';
 import apiClient from "@/libs/api";
+import {toast} from 'react-hot-toast';
 
 // export async function generateMetadata({params: {locale}}: any) {
 //   const t = await getTranslations({locale, namespace: 'Playground'});
@@ -26,11 +27,15 @@ const Create = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [audioUrl, setAudioUrl] = useState<string>('');
   const handleGen = async () => {
+    if (!prompt) {
+      toast.error('prompt is required');
+      return;
+    }
     setLoading(true);
     const requestData = {
       "prompt": prompt,
-      "seconds_start": start,
-      "seconds_total": total,
+      "start": start,
+      "total": total,
       "steps": steps,
     };
 
@@ -181,11 +186,19 @@ const Create = () => {
                     }}></div>
                   </div>
                 </div>
-                <div className='p-5'>
-                  <Button size="4" disabled={!audioUrl}>
+                {/* <div className='p-5'>
+                  <Button size="4" disabled={!audioUrl} onClick={() => {
+                    const a = document.createElement('a');
+                    a.style.display = 'none';
+                    a.href = audioUrl;
+                    a.download = 'audio.wav';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                  }} >
                     <PinBottomIcon/> Download
                   </Button>
-                </div>
+                </div> */}
                 </Spinner>
               </div>
             </div>
