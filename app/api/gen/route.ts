@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
         { status: 400 }
       );
     }
-    creditArr[0] = creditArr[0] - 1;
+    creditArr[0].credit = creditArr[0].credit - 1;
     user.credits = [...creditArr];
     await user.save();
 
