@@ -16,9 +16,9 @@ export default async function LayoutPrivate({
 }) {
   const session = await getServerSession(authOptions);
 
-  // if (!session) {
-  //   redirect(config.auth.loginUrl);
-  // }
+  if (!session) {
+    redirect(config.auth.loginUrl);
+  }
 
   return <>{children}</>;
 }

@@ -182,7 +182,7 @@ const Create = () => {
                   </div>
                 </div>
                 <div className='p-5'>
-                  <Button size="4">
+                  <Button size="4" disabled={!audioUrl}>
                     <PinBottomIcon/> Download
                   </Button>
                 </div>

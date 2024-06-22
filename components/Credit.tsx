@@ -22,7 +22,7 @@ const ButtonCheckout = () => {
     setIsLoading(true);
 
     try {
-      const ret: any = await apiClient.post(
+      const ret: any = await apiClient.get(
         "/get-credits",
       );
       setCredits(ret.data);

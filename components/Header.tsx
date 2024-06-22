@@ -29,10 +29,10 @@ const links: {
     href: '/',
     label: 'Home',
   },
-  // {
-  //   href: '/create',
-  //   label: 'Create',
-  // },
+  {
+    href: '/create',
+    label: 'Create',
+  },
   {
     href: '/playground',
     label: 'Playground',
