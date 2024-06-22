@@ -3,13 +3,21 @@
 import { useState } from "react";
 import apiClient from "@/libs/api";
 import config from "@/config";
-
+import { useSession } from "next-auth/react";
+import {toast} from 'react-hot-toast';
 // This component is used to create Lemon Squeezy Checkout Sessions
 // It calls the /api/lemonsqueezy/create-checkout route with the variantId and redirectUrl
 const ButtonCheckout = ({ variantId }: { variantId: string }) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const session = useSession();
+  console.log('session', session);
 
   const handlePayment = async () => {
+    if (!session?.data) {
+      // 未登陆，跳转登陆
+      toast.error('please login first');
+      return;
+    }
     setIsLoading(true);
 
     try {

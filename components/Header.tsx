@@ -29,21 +29,17 @@ const links: {
     href: '/',
     label: 'Home',
   },
+  // {
+  //   href: '/create',
+  //   label: 'Create',
+  // },
   {
     href: '/playground',
     label: 'Playground',
   },
   {
-    href: "/#testimonials",
-    label: "Reviews",
-  },
-  {
     href: '/blog',
     label: 'Blog',
-  },
-  {
-    href: "/#faq",
-    label: "FAQ",
   },
 ];
 

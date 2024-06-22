@@ -30,6 +30,13 @@ const userSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    credits: [{
+      credit: {
+        type: Number,
+        default: 0,
+      },
+      ctime: Date,
+    }],
   },
   {
     timestamps: true,
