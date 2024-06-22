@@ -20,7 +20,7 @@ import apiClient from "@/libs/api";
 
 const Create = () => {
   const [start, setStart] = useState<number>(0);
-  const [total, setTotal] = useState<number>(15);
+  const [total, setTotal] = useState<number>(30);
   const [steps, setSteps] = useState<number>(100);
   const [prompt, setPrompt] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
@@ -81,7 +81,7 @@ const Create = () => {
                               <div className='flex flex-row space-x-4'>
                                 <span className="relative flex w-full touch-none select-none items-center">
                                   <Slider max={45} value={[start]} onValueChange={(value: any) => {
-                                    setStart(value);
+                                    setStart(value?.[0] || 0);
                                   }}/>
                                 </span>
                                 <input type="number" value={start} onChange={(event: any) => {
@@ -101,7 +101,7 @@ const Create = () => {
                               <div className='flex flex-row space-x-4'>
                                 <span className="relative flex w-full touch-none select-none items-center">
                                   <Slider max={45} value={[total]} onValueChange={(value: any) => {
-                                    setTotal(value);
+                                    setTotal(value?.[0] || 30);
                                   }}/>
                                 </span>
                                 <input type="number" value={total} onChange={(event: any) => {
@@ -121,7 +121,7 @@ const Create = () => {
                               <div className='flex flex-row space-x-4'>
                                 <span className="relative flex w-full touch-none select-none items-center">
                                   <Slider max={1000} value={[steps]} onValueChange={(value: any) => {
-                                    setSteps(value);
+                                    setSteps(value?.[0] || 100);
                                   }}/>
                                 </span>
                                 <input type="number" value={steps} onChange={(event: any) => {
