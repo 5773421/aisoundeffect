@@ -7,12 +7,12 @@ import ButtonCheckout from "./ButtonCheckout";
 
 const IframeCom = () => {
   return (
-    <section className="" id="start">
+    <section className="w-full mt-10" id="start">
       <iframe
           src="https://fffiloni-audiogen.hf.space"
           frameBorder="0"
           width="100%"
-          height="450"
+          height="800"
         ></iframe>
     </section>
   );

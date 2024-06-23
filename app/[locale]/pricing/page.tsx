@@ -11,9 +11,10 @@ const Pricing = () => {
       <section className="bg-white min-h-full" id="pricing">
       <div className="py-24 px-8 max-w-5xl mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <p className="font-medium text-primary mb-8">Pricing</p>
+          <p className="font-medium text-primary mb-8">1 credit lets you generate 1 AI Sound Effect.
+One-time payment. No subscription. No hidden fees.</p>
           <h2 className="font-bold text-3xl lg:text-5xl tracking-tight">
-            Save hours of repetitive code and ship faster!
+            Unleash your creativity with AI
           </h2>
         </div>
 
@@ -62,9 +63,9 @@ const Pricing = () => {
                     ${plan.price}
                   </p>
                   <div className="flex flex-col justify-end mb-[4px]">
-                    <p className="text-xs text-base-content/60 uppercase font-semibold">
-                      USD
-                    </p>
+                    {plan.price === 1 && <p className="text-xs text-base-content/60 uppercase font-semibold">
+                      /month
+                    </p>}
                   </div>
                 </div>
                 {plan.features && (
@@ -92,9 +93,9 @@ const Pricing = () => {
                 <div className="space-y-2">
                   <ButtonCheckout variantId={plan.variantId} />
 
-                  <p className="flex items-center justify-center gap-2 text-sm text-center text-base-content/80 font-medium relative">
+                  {/* <p className="flex items-center justify-center gap-2 text-sm text-center text-base-content/80 font-medium relative">
                     Pay once. Access forever.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

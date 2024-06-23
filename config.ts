@@ -72,44 +72,56 @@ const config = {
         // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
         variantId:
           process.env.NODE_ENV === "development"
-            ? "408778"
-            : "408778",
+            // ? "426250"
+            // : "426256",
+            ? "426250"
+            : "426250",
         //  REQUIRED - Name of the plan, displayed on the pricing page
-        name: "Starter",
+        name: "Start",
         // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others.
-        description: "Perfect for small projects",
         // The price you want to display, the one user will be charged on Lemon Squeezy
-        price: 99,
+        price: 4.9,
         // If you have an anchor price (i.e. $149) that you want to display crossed out, put it here. Otherwise, leave it empty.
-        priceAnchor: 149,
+        priceAnchor: 9.9,
         features: [
           {
-            name: "NextJS boilerplate",
+            name: "60 Credits",
           },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
+          {
+            name: "Valid for 1 month",
+          },
+          { name: "Faster generation speed" },
+          { name: "High quality sound effect" },
+          { name: "Long duration sound effects" },
+          { name: "Customizable sound parameters"},
+          { name: "User-friendly interface" },
+          { name: "24/7 support" },
         ],
       },
       {
         variantId:
           process.env.NODE_ENV === "development"
-            ? "408778"
-            : "408778",
+            // ? "408780"
+            // : "426255",
+            ? "408780"
+            : "408780",
         // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true.
         isFeatured: true,
         name: "Advanced",
-        description: "You need more power",
-        price: 149,
-        priceAnchor: 299,
+        price: 9.9,
+        priceAnchor: 13.9,
         features: [
           {
-            name: "NextJS boilerplate",
+            name: "200 Credits",
           },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
-          { name: "1 year of updates" },
+          {
+            name: "Valid for 1 month",
+          },
+          { name: "Faster generation speed" },
+          { name: "High quality sound effect" },
+          { name: "Long duration sound effects" },
+          { name: "Customizable sound parameters"},
+          { name: "User-friendly interface" },
           { name: "24/7 support" },
         ],
       },

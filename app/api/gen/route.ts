@@ -20,26 +20,26 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    // const session = await getServerSession(authOptions);
-    // if (!session?.user?.id) {
-    //   return NextResponse.json(
-    //     { error: "Please Login in" },
-    //     { status: 401 }
-    //   );
-    // }
+    const session = await getServerSession(authOptions);
+    if (!session?.user?.id) {
+      return NextResponse.json(
+        { error: "Please Login in" },
+        { status: 401 }
+      );
+    }
     await connectMongo();
-    // const user = await User.findById(session?.user?.id);
-    // const lastM = new Date(new Date().setMonth(new Date().getMonth() - 1));
-    // const creditArr = user.credits.filter((item: any) => (item.ctime > lastM) && item.credit);
-    // const credits = creditArr.reduce((pre: number, item: any) => {
-    //     return pre + item.credit;
-    // }, 0);
-    // if (!credits) {
-    //   return NextResponse.json(
-    //     { error: "Credits are not enough!" },
-    //     { status: 400 }
-    //   );
-    // }
+    const user = await User.findById(session?.user?.id);
+    const lastM = new Date(new Date().setMonth(new Date().getMonth() - 1));
+    const creditArr = user.credits.filter((item: any) => (item.ctime > lastM) && item.credit);
+    const credits = creditArr.reduce((pre: number, item: any) => {
+        return pre + item.credit;
+    }, 0);
+    if (!credits) {
+      return NextResponse.json(
+        { error: "Credits are not enough!" },
+        { status: 400 }
+      );
+    }
 
     const { prompt, start, total, steps } = body;
     const result: any = await fal.subscribe("fal-ai/stable-audio", {
@@ -51,11 +51,11 @@ export async function POST(req: NextRequest) {
       },
       logs: false,
     });
-    // if (result?.audio_file) {
-    //   creditArr[0].credit = creditArr[0].credit - 1;
-    //   user.credits = [...creditArr];
-    //   await user.save();
-    // }
+    if (result?.audio_file) {
+      creditArr[0].credit = creditArr[0].credit - 1;
+      user.credits = [...creditArr];
+      await user.save();
+    }
 
     return NextResponse.json(result?.audio_file);
     // return NextResponse.json({});

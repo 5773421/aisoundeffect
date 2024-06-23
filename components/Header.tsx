@@ -30,12 +30,16 @@ const links: {
     label: 'Home',
   },
   {
-    href: '/create',
-    label: 'Create',
-  },
-  {
     href: '/playground',
     label: 'Playground',
+  },
+  {
+    href: '/pricing',
+    label: 'Pricing',
+  },
+  {
+    href: '/create',
+    label: 'Create',
   },
   {
     href: '/blog',
