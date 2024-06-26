@@ -23,7 +23,7 @@ const IframeCom = () => {
             </div>
             <div className="ml-3">
               <p className="text-xl text-yellow-700">
-                If you want higher quality sound effects, longer duration, and faster generation speed, please consider {' '}
+                If you want higher quality sound effects and faster generation speed, please consider {' '}
                 <Link href="/pricing" className="font-medium text-yellow-700 underline hover:text-yellow-600">
                   buy credits
                 </Link>.

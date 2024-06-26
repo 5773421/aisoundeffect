@@ -109,10 +109,10 @@ const config = {
         isFeatured: true,
         name: "Advanced",
         price: 9.9,
-        priceAnchor: 13.9,
+        priceAnchor: 19.9,
         features: [
           {
-            name: "200 Credits",
+            name: "Unlimited usage",
           },
           {
             name: "Valid for 1 month",
