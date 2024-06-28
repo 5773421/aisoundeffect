@@ -8,7 +8,7 @@ import Link from "next/link";
 // It's your Stripe config in config.js.stripe.plans[] that will be used to display the plans
 // <ButtonCheckout /> renders a button that will redirect the user to Stripe checkout called the /api/stripe/create-checkout API endpoint with the correct priceId
 
-const IframeCom = () => {
+const IframeCom = ({isShow}: any) => {
   const [loading, setLoading] = useState<boolean>(true);
   useEffect(() => {
     setTimeout(() => {
@@ -17,7 +17,7 @@ const IframeCom = () => {
   })
   return (
       <section className="flex flex-col items-center w-full" id="start">
-        {!loading && <div className="border-l-4 border-yellow-400 mb-10 mt-10 bg-yellow-50 p-4 w-3/5">
+        {!loading && isShow && <div className="border-l-4 border-yellow-400 mb-10 mt-10 bg-yellow-50 p-4 w-3/5">
           <div className="flex">
             <div className="flex-shrink-0">
             </div>
@@ -35,7 +35,7 @@ const IframeCom = () => {
             </div>
           </div>
         </div>}
-        {loading && <div className='mt-20 text-4xl font-medium'>Loading... please wait. If there is an issue with loading, please try refreshing the page.</div>}
+        {isShow && loading && <div className='mt-20 text-4xl font-medium'>Loading... please wait. If there is an issue with loading, please try refreshing the page.</div>}
         <iframe
           src="https://artificialguybr-stable-audio-open-zero.hf.space"
           width="100%"

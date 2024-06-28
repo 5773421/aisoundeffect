@@ -21,7 +21,7 @@ export async function generateMetadata({params: {locale}}: any) {
 const PrivacyPolicy = () => {
   return (
     <div className='flex flex-col items-center w-full'>
-      <IframeCom />
+      <IframeCom isShow />
     </div>
   );
 };
