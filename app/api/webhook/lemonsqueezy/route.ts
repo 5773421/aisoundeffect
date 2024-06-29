@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
         user.customerId = customerId;
         user.hasAccess = true;
         user.credits = [...user.credits, {
-          credit: plan.name === 'Start' ? 60 : 200,
+          credit: plan.name === 'Start' ? 60 : 10000,
           ctime: new Date(),
         }]
         await user.save();
