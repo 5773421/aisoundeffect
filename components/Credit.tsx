@@ -42,7 +42,7 @@ const ButtonCheckout = () => {
     <div className="flex">
       <div className="text-3xl md:text-4xl font-extrabold mr-5">credits: </div>
       <Spinner loading={isLoading} >
-        <div className="text-3xl md:text-4xl font-extrabold">{credits}</div>
+        <div className="text-3xl md:text-4xl font-extrabold">{credits > 1000 ? 'Unlimited': credits}</div>
       </Spinner>
     </div>
   );
