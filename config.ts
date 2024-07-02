@@ -112,7 +112,7 @@ const config = {
         priceAnchor: 19.9,
         features: [
           {
-            name: "Unlimited usage",
+            name: "200 Credits",
           },
           {
             name: "Valid for 1 month",
