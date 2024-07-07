@@ -9,6 +9,20 @@
     "seoDesc": "Stwórz realistyczne i zaangażowane efekty dźwiękowe AI za pomocą naszego zaawansowanego generatora efektów dźwiękowych. Doskonały dla twórców gier, filmowców i twórców treści.",
     "seoTitle": "Blog Generatora Efektów Dźwiękowych AI"
   },
+  "Create": {
+    "input": "Wprowadź",
+    "prompt": "prompt",
+    "reset": "Resetuj",
+    "result": "Wynik",
+    "run": "Uruchom",
+    "seoTitle": "Stwórz generator efektów dźwiękowych AI",
+    "start": "Sekundy Początek",
+    "startDesc": "Punkt początkowy klipu audio do wygenerowania",
+    "steps": "Kroki",
+    "stepsDesc": "Liczba kroków do odszumienia audio, domyślna wartość to 100",
+    "total": "Całkowity Czas",
+    "totalDesc": "Czas trwania klipu audio do wygenerowania, domyślna wartość to 30"
+  },
   "FAQs": {
     "a1": "Generator dźwięków AI to narzędzie wykorzystujące technologię sztucznej inteligencji do tworzenia i manipulowania różnymi efektami dźwiękowymi. Może generować szeroki zakres dźwięków, takich jak dźwięki otoczenia, odgłosy maszyn, odgłosy zwierząt i wiele innych, za pomocą zaawansowanych algorytmów i technik uczenia maszynowego.",
     "a2": "Generator dźwięków AI działa poprzez wykorzystanie modeli uczenia głębokiego i sieci neuronowych do analizy i syntezy danych dźwiękowych. Może uczyć się na podstawie istniejących próbek dźwiękowych, a następnie generować nowe efekty dźwiękowe na podstawie wyuczonych wzorców. Technologia AI może dostosować się do różnych parametrów wejściowych i generować realistyczne i zróżnicowane efekty dźwiękowe.",

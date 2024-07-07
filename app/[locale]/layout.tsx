@@ -10,6 +10,7 @@ import {getTranslations} from 'next-intl/server';
 import { Suspense } from 'react';
 import Header from "@/components/Header";
 import { Theme } from '@radix-ui/themes';
+import Footer from "@/components/Footer";
 
 const font = Inter({ subsets: ["latin"] });
 
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: ReactNode}) {
           </Suspense>
           {/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
           <ClientLayout>{children}</ClientLayout>
+          <Footer />
         </Theme>
       </body>
     </html>

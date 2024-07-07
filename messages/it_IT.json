@@ -9,6 +9,20 @@
     "seoDesc": "Crea effetti sonori AI realistici e coinvolgenti con il nostro avanzato generatore di effetti sonori. Perfetto per sviluppatori di giochi, registi e creatori di contenuti.",
     "seoTitle": "Blog del Generatore di effetti sonori AI"
   },
+  "Create": {
+    "input": "Input",
+    "prompt": "Prompt",
+    "reset": "Reset",
+    "result": "Risultato",
+    "run": "Esegui",
+    "seoTitle": "Crea | Generatore di Effetti Sonori AI",
+    "start": "Inizio Secondi",
+    "startDesc": "Il punto di inizio del clip audio da generare",
+    "steps": "Passaggi",
+    "stepsDesc": "Il numero di passaggi per eliminare il rumore dell'audio. Valore predefinito: 100",
+    "total": "Totale Secondi",
+    "totalDesc": "La durata del clip audio da generare. Valore predefinito: 30"
+  },
   "FAQs": {
     "a1": "Un generatore di effetti sonori AI è uno strumento che utilizza la tecnologia dell'intelligenza artificiale per creare e manipolare vari effetti sonori. Può generare una vasta gamma di effetti audio come suoni ambientali, rumori di macchine, richiami animali e altro ancora, utilizzando algoritmi avanzati e tecniche di apprendimento automatico.",
     "a2": "Un generatore di effetti sonori AI funziona utilizzando modelli di apprendimento profondo e reti neurali per analizzare e sintetizzare dati audio. Può apprendere dai campioni audio esistenti e quindi generare nuovi effetti sonori basati sui pattern appresi. La tecnologia AI può adattarsi a diversi parametri di input e produrre effetti sonori realistici e diversificati.",

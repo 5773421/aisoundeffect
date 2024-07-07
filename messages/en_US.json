@@ -1,6 +1,6 @@
 {
   "Basic": {
-    "seoDesc": "Discover the ultimate tool for creating unique sound effects instantly. Our AI sound effect generator brings your imagination to life with high-quality audio tailored to your needs.",
+    "seoDesc": "Discover the ultimate tool for creating unique sound effects instantly. Our AI sound effect generator brings your imagination to life with high-quality audio tailored to your needs",
     "seoTitle": "Ai Sound Effect Generator Free & Text To Sound Effect"
   },
   "Blog": {
@@ -8,6 +8,20 @@
     "h1": "The AI Sound Effect Generator Blog",
     "seoDesc": "Create realistic and immersive AI sound effects with our advanced sound effect generator. Perfect for game developers, filmmakers, and content creators.",
     "seoTitle": "AI Sound Effect Generator Blog"
+  },
+  "Create": {
+    "input": "Input",
+    "prompt": "prompt",
+    "reset": "Reset",
+    "result": "Result",
+    "run": "Run",
+    "seoTitle": "Create AI Sound Effect Generator",
+    "start": "Seconds Start",
+    "startDesc": "The start point of the audio clip to generate",
+    "steps": "Steps",
+    "stepsDesc": "The number of steps to denoise the audio for Default value 100",
+    "total": "Seconds Total",
+    "totalDesc": "The duration of the audio clip to generate Default value 30"
   },
   "FAQs": {
     "a1": "An AI sound effect generator is a tool that utilizes artificial intelligence technology to create and manipulate various sound effects. It can generate a wide range of audio effects such as ambient sounds, machine noises, animal calls, and more, using advanced algorithms and machine learning techniques.",
@@ -49,14 +63,14 @@
     "startBtn": "Get started for free"
   },
   "HowToUse": {
-    "feaDesc1": "The Prompt field is your gateway to guiding the AI in understanding your creative intent.",
+    "feaDesc1": "The Prompt field is your gateway to guiding the AI in understanding your creative intent",
     "feaDesc2": "The duration of the sound you expect to generate.",
     "feaDesc3": "Submit button, click to start generating",
     "feaTitle1": "Audio Prompt",
     "feaTitle2": "Duration",
     "feaTitle3": "Submit",
     "h2": "AI Sound Effect Generator Interface Overview",
-    "subTitle": "AI Sound Effect Generator offers a range of parameters to craft your sound effects.",
+    "subTitle": "AI Sound Effect Generator offers a range of parameters to craft your sound effects",
     "title": "Familiarize Yourself with the AI Sound Effect Generator Interface"
   },
   "Playground": {

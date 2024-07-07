@@ -9,6 +9,20 @@
     "seoDesc": "Crea efectos de sonido de IA realistas e inmersivos con nuestro avanzado generador de efectos de sonido. Perfecto para desarrolladores de juegos, cineastas y creadores de contenido.",
     "seoTitle": "Blog del Generador de Efectos de Sonido de IA"
   },
+  "Create": {
+    "input": "Entrada",
+    "prompt": "Indicación",
+    "reset": "Reiniciar",
+    "result": "Resultado",
+    "run": "Ejecutar",
+    "seoTitle": "Crear | Generador de efectos de sonido de IA",
+    "start": "Inicio en segundos",
+    "startDesc": "Punto de inicio del fragmento de audio a generar",
+    "steps": "Pasos",
+    "stepsDesc": "El número de pasos para el proceso de reducción de ruido del audio. Valor predeterminado: 100",
+    "total": "Duración en segundos",
+    "totalDesc": "La duración del fragmento de audio a generar. Valor predeterminado: 30"
+  },
   "FAQs": {
     "a1": "Un generador de efectos de sonido de IA es una herramienta que utiliza tecnología de inteligencia artificial para crear y manipular diversos efectos de sonido. Puede generar una amplia gama de efectos de audio como sonidos ambiente, ruidos de máquinas, llamadas de animales y más, utilizando algoritmos avanzados y técnicas de aprendizaje automático.",
     "a2": "Un generador de efectos de sonido de IA funciona utilizando modelos de aprendizaje profundo y redes neuronales para analizar y sintetizar datos de audio. Puede aprender a partir de muestras de sonido existentes y luego generar nuevos efectos de sonido basados en los patrones aprendidos. La tecnología de IA puede adaptarse a diferentes parámetros de entrada y producir efectos de sonido realistas y diversos.",

@@ -9,6 +9,20 @@
     "seoDesc": "Erstellen Sie realistische und immersive KI-Soundeffekte mit unserem fortschrittlichen Soundeffekt-Generator. Perfekt für Spieleentwickler, Filmemacher und Content-Ersteller.",
     "seoTitle": "KI-Soundeffekt-Generator Blog"
   },
+  "Create": {
+    "input": "Eingabe",
+    "prompt": "Aufforderung",
+    "reset": "Zurücksetzen",
+    "result": "Ergebnis",
+    "run": "Ausführen",
+    "seoTitle": "Erstellen | KI-Soundeffekt-Generator",
+    "start": "Startsekunden",
+    "startDesc": "Der Startpunkt des zu generierenden Audioclips",
+    "steps": "Schritte",
+    "stepsDesc": "Die Anzahl der Schritte zur Rauschunterdrückung des Audios. Standardwert: 100",
+    "total": "Gesamtdauer in Sekunden",
+    "totalDesc": "Die Dauer des zu generierenden Audioclips. Standardwert: 30"
+  },
   "FAQs": {
     "a1": "Ein KI-Soundeffekt-Generator ist ein Tool, das KI-Technologie nutzt, um verschiedene Soundeffekte zu erstellen und zu manipulieren. Mit Hilfe von fortgeschrittenen Algorithmen und maschinellem Lernen können verschiedene Audio-Effekte wie Umgebungsgeräusche, Maschinengeräusche, Tierlaute und mehr generiert werden.",
     "a2": "Ein KI-Soundeffekt-Generator arbeitet mit Deep-Learning-Modellen und neuronalen Netzen, um Audio-Daten zu analysieren und zu synthetisieren. Er kann aus vorhandenen Klangbeispielen lernen und dann basierend auf den erlernten Mustern neue Soundeffekte generieren. Die KI-Technologie kann sich an unterschiedliche Eingabeparameter anpassen und realistische und vielfältige Soundeffekte erzeugen.",

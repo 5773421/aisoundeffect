@@ -9,6 +9,20 @@
     "seoDesc": "Vytvářejte realistické a pohlcující zvukové efekty AI s naším pokročilým generátorem zvukových efektů. Ideální pro vývojáře her, filmaře a tvůrce obsahu.",
     "seoTitle": "Blog generátoru zvukových efektů AI"
   },
+  "Create": {
+    "input": "Vstup",
+    "prompt": "Zaměstnavat",
+    "reset": "Resetovat",
+    "result": "Výsledek",
+    "run": "Spustit",
+    "seoTitle": "Vytvořit | Generátor zvukových efektů AI",
+    "start": "Začátek v sekundách",
+    "startDesc": "Počáteční bod zvukového záznamu k generování",
+    "steps": "Kroky",
+    "stepsDesc": "Počet kroků pro odšumění zvuku (Výchozí hodnota: 100)",
+    "total": "Celkem sekund",
+    "totalDesc": "Délka zvukového záznamu k generování (Výchozí hodnota: 30)"
+  },
   "FAQs": {
     "a1": "Generátor zvukových efektů AI je nástroj, který využívá technologii umělé inteligence k vytváření a manipulaci různých zvukových efektů. Může generovat širokou škálu zvukových efektů, jako jsou okolní zvuky, zvuky strojů, volání zvířat a další, pomocí pokročilých algoritmů a technik strojového učení.",
     "a2": "Generátor zvukových efektů AI pracuje pomocí modelů hlubokého učení a neuronových sítí k analýze a syntéze zvukových dat. Může se učit z existujících zvukových vzorků a poté generovat nové zvukové efekty na základě naučených vzorů. AI technologie se může přizpůsobit různým vstupním parametrům a produkovat realistické a rozmanité zvukové efekty.",

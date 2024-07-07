@@ -9,6 +9,20 @@
     "seoDesc": "Sukurkite realizuotus ir įtraukiančius dirbtinio intelekto garsų efektus naudodami mūsų pažangų garsų efektų generatorių. Puikiai tinka žaidimų kūrėjams, filmų kūrėjams ir turinio kūrėjams.",
     "seoTitle": "Dirbtinio Intelekto Garsų Efektų Generatoriaus Blogas"
   },
+  "Create": {
+    "input": "Įvestis",
+    "prompt": "Paskata",
+    "reset": "Atstatyti",
+    "result": "Rezultatas",
+    "run": "Paleisti",
+    "seoTitle": "Sukurti AI garso efektų generatorių",
+    "start": "Pradžios sekundės",
+    "startDesc": "Garso klipo pradžios taškas generavimui",
+    "steps": "Žingsniai",
+    "stepsDesc": "Žingsnių skaičius garso triukšmo mažinimui. Numatytasis reikšmė 100",
+    "total": "Viso sekundžių",
+    "totalDesc": "Garso klipo trukmė generavimui. Numatytasis reikšmė 30"
+  },
   "FAQs": {
     "a1": "Dirbtinio intelekto garsų efektų generatorius yra įrankis, naudojantis dirbtinio intelekto technologiją, kurią sukuria ir manipuliuoja įvairiais garso efektais. Jis gali generuoti įvairių garso efektų, tokių kaip aplinkos garsai, mašinos triukšmai, gyvūnų šauksmai ir kt., naudojant pažangius algoritmus ir mašininio mokymosi technikas.",
     "a2": "Dirbtinio intelekto garsų efektų generatorius veikia naudodamas giluminio mokymosi modelius ir neuronines tinklus, kad galėtų analizuoti ir sintezuoti garso duomenis. Jis gali išmokti iš esamų garso pavyzdžių ir tuomet, remdamasis išmoktomis sąvokomis, generuoti naujus garso efektus. Dirbtinio intelekto technologija gali prisitaikyti prie skirtingų įvesties parametrų ir gali sukurti realizuotus ir įvairius garso efektus.",

@@ -6,7 +6,6 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import FAQs from "@/components/FAQs";
 import CTA from "@/components/CTA";
-import Footer from "@/components/Footer";
 import IframeCom from '@/components/Iframe';
 import HowToUse from '@/components/HowToUse';
 
@@ -25,7 +24,6 @@ export default function Home() {
         <FAQs />
         {/* <CTA /> */}
       </main>
-      <Footer />
     </>
   );
 }

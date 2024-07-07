@@ -9,6 +9,20 @@
     "seoDesc": "Luo realistisia ja immersiivisiä tekoälyä hyödyntäviä äänitehosteita kehittyneellä äänitehostegeneraattorillamme. Täydellinen pelinkehittäjille, elokuvantekijöille ja sisällöntuottajille.",
     "seoTitle": "Tekoälyä Hyödyntävä Äänitehostegeneraattorin Blogi"
   },
+  "Create": {
+    "input": "Syöte",
+    "prompt": "Pyyntö",
+    "reset": "Nollaa",
+    "result": "Tulos",
+    "run": "Suorita",
+    "seoTitle": "Luo tekoälyn ääniefektigeneraattori",
+    "start": "Sekunnit Alku",
+    "startDesc": "Äänileikkeen generointipisteen aloitusaika",
+    "steps": "Askeleet",
+    "stepsDesc": "Askelten lukumäärä äänen vaimentamiseksi. Oletusarvo: 100",
+    "total": "Sekunnit Yhteensä",
+    "totalDesc": "Generoitavan äänileikkeen kesto. Oletusarvo: 30"
+  },
   "FAQs": {
     "a1": "Tekoälyä hyödyntävä äänitehostegeneraattori on työkalu, joka käyttää tekoälyteknologiaa luomaan ja manipuloimaan erilaisia äänitehosteita. Se pystyy generoimaan laajan valikoiman äänitehosteita, kuten ympäristöäänia, koneääniä, eläinten kutsuja ja muuta, käyttäen kehittyneitä algoritmeja ja koneoppimistekniikoita.",
     "a2": "Tekoälyä hyödyntävä äänitehostegeneraattori toimii käyttämällä syvää oppimismalleja ja neuroverkkoja analysoimaan ja syntetisoimaan äänidataa. Se voi oppia olemassa olevista ääninäytteistä ja sitten generaati uusia äänitehosteita opittujen mallien perusteella. Te kou  teknologia voi sopeutua erilaisiin syöttöparametreihin ja tuottaa realistisia ja monipuolisia äänitehosteita.",

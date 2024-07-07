@@ -9,6 +9,20 @@
     "seoDesc": "Buat efek suara AI realistis dan immersif dengan generator efek suara canggih kami. Sempurna untuk pengembang game, pembuat film, dan kreator konten.",
     "seoTitle": "Blog Generator Efek Suara AI"
   },
+  "Create": {
+    "input": "Masukan",
+    "prompt": "Prompt",
+    "reset": "Atur Ulang",
+    "result": "Hasil",
+    "run": "Jalankan",
+    "seoTitle": "Buat Generator Efek Suara AI",
+    "start": "Detik Mulai",
+    "startDesc": "Titik awal klip audio yang akan dihasilkan",
+    "steps": "Langkah",
+    "stepsDesc": "Jumlah langkah untuk menghilangkan noise dari audio, nilai default 100",
+    "total": "Total Detik",
+    "totalDesc": "Durasi klip audio yang akan dihasilkan, nilai default 30"
+  },
   "FAQs": {
     "a1": "Generator efek suara AI adalah alat yang menggunakan teknologi kecerdasan buatan untuk membuat dan memanipulasi berbagai efek suara. Ini dapat menghasilkan berbagai efek audio seperti suara ambient, suara mesin, panggilan hewan, dan lainnya, menggunakan algoritma canggih dan teknik pembelajaran mesin.",
     "a2": "Generator efek suara AI bekerja dengan menggunakan model pembelajaran mendalam dan jaringan saraf untuk menganalisis dan mensintesis data audio. Ini dapat belajar dari sampel suara yang ada dan kemudian menghasilkan efek suara baru berdasarkan pola yang dipelajari. Teknologi AI dapat menyesuaikan dengan parameter input yang berbeda dan menghasilkan efek suara yang realistis dan beragam.",
