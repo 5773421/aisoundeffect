@@ -23,7 +23,8 @@ const IframeCom = ({isShow}: any) => {
             </div>
             <div className="ml-3">
               <p className="text-xl text-yellow-700">
-                If you want higher quality sound effects, faster generation speed, and longer generation duration (up to 45 seconds), please consider {' '}
+                {/* If you want higher quality sound effects, faster generation speed, and longer generation duration (up to 45 seconds), please consider {' '} */}
+                If you want higher quality sound effects and faster generation speed, please consider {' '}
                 <Link href="/pricing" className="font-medium text-yellow-700 underline hover:text-yellow-600">
                   buy credits
                 </Link>.
@@ -36,18 +37,18 @@ const IframeCom = ({isShow}: any) => {
           </div>
         </div>}
         {isShow && loading && <div className='mt-20 text-4xl font-medium'>Loading... please wait. If there is an issue with loading, please try refreshing the page.</div>}
-        {/* <iframe
+        <iframe
           src="https://artificialguybr-stable-audio-open-zero.hf.space"
           width="100%"
           frameBorder="0"
           height="900"
-        ></iframe> */}
-        <iframe
+        ></iframe>
+        {/* <iframe
           src="https://fffiloni-audiogen.hf.space"
           frameBorder="0"
           width="100%"
           height="450"
-        ></iframe>
+        ></iframe> */}
       </section>
   );
 };

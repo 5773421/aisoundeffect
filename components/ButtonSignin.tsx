@@ -47,7 +47,7 @@ const ButtonSignin = ({
             {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
           </span>
         )}
-        {session.user?.name || session.user?.email || "Account"}
+        {"Account"}
       </Link>
     );
   }
