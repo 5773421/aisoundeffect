@@ -51,7 +51,7 @@ const ButtonSignin = ({
             {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
           </span>
         )}
-        {`Credits: ${credits > 1000 ? credits : (credits || 0)}`}
+        {`Credits: ${credits > 1000 ? 'Unlimited' : (credits || 0)}`}
       </Link>
     );
   }

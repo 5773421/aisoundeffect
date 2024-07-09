@@ -68,6 +68,7 @@ export async function POST(req: NextRequest) {
             user = await User.create({
               email,
               name,
+              credits: [],
             });
 
             await user.save();
