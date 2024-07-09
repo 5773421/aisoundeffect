@@ -27,7 +27,7 @@ export const AppContextProvider = ({ children }: any) => {
   }, []);
 
   return (
-    <AppContext.Provider value={{ credits: JSON.stringify(session), fetchUserCredits }}>
+    <AppContext.Provider value={{ credits, fetchUserCredits }}>
       {children}
     </AppContext.Provider>
   );
