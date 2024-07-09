@@ -1,7 +1,6 @@
 'use client';
 import config from "@/config";
 import {useState, useEffect} from 'react';
-import ButtonCheckout from "./ButtonCheckout";
 import Link from "next/link";
 
 // <Pricing/> displays the pricing plans for your app
@@ -23,15 +22,19 @@ const IframeCom = ({isShow}: any) => {
             </div>
             <div className="ml-3">
               <p className="text-xl text-yellow-700">
-                {/* If you want higher quality sound effects, faster generation speed, and longer generation duration (up to 45 seconds), please consider {' '} */}
-                If you want higher quality sound effects and faster generation speed, please consider {' '}
+                If you want higher quality sound effects, faster generation speed, and longer generation duration (up to 45 seconds), please consider {' '}
+                {/* If you want higher quality sound effects and faster generation speed, please consider {' '} */}
                 <Link href="/pricing" className="font-medium text-yellow-700 underline hover:text-yellow-600">
                   buy credits
                 </Link>.
                 And use {' '}
                 <Link href="/create" className="font-medium text-yellow-700 underline hover:text-yellow-600">
                   Create
-                </Link>.
+                </Link>. {'('}
+                {/* <Link href="/create" className="font-medium text-yellow-700 underline hover:text-yellow-600"> */}
+                  Login in {' '}
+                {/* </Link> */}
+                 to receive three free pro credits.{')'}
               </p>
             </div>
           </div>
