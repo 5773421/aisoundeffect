@@ -8,7 +8,7 @@ export const AppContextProvider = ({ children }: any) => {
   const session = useSession();
   const fetchUserCredits = async function () {
     try {
-      if (!session.data) {
+      if (!session || (JSON.stringify(session) === '{}')) {
         // 未登陆，跳转登陆
         return;
       }
