@@ -25,7 +25,10 @@ export const authOptions: NextAuthOptionsExtended = {
           email: profile.email,
           image: profile.picture,
           createdAt: new Date(),
-          credits: [3],
+          credits: [{
+            credit: 3,
+            ctime: new Date(),
+          }],
         };
       },
     }),
