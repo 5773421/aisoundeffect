@@ -1,10 +1,11 @@
 "use client";
-import {useState} from 'react';
+import {useState, useContext} from 'react';
 import { Slider, Button, Tooltip, Spinner } from '@radix-ui/themes';
 import { InfoCircledIcon } from '@radix-ui/react-icons';
 import apiClient from "@/libs/api";
 import {toast} from 'react-hot-toast';
 import {useTranslations} from 'next-intl';
+import {AppContext} from '@/contexts/AppContext';
 
 const Create = (props: any) => {
   const [start, setStart] = useState<number>(0);
@@ -14,6 +15,7 @@ const Create = (props: any) => {
   const [loading, setLoading] = useState<boolean>(false);
   const [audioUrl, setAudioUrl] = useState<string>('');
   const t = useTranslations('Create');
+  const { credits, fetchUserCredits } = useContext(AppContext);
 
   const handleGen = async () => {
     if (!prompt) {
@@ -31,6 +33,7 @@ const Create = (props: any) => {
     try {
       const result: any = await apiClient.post("/gen", requestData);
       console.log('result', result);
+      fetchUserCredits();
       setAudioUrl(result?.url || '');
     } catch (e) {
       setLoading(false);

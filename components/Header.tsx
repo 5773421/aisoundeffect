@@ -8,7 +8,6 @@ import Image from "next/image";
 import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/icon.png";
 import config from "@/config";
-import { SessionProvider } from "next-auth/react";
 import LangSwitcher from './LangSwitcher';
 import {useLocale} from 'next-intl';
  
@@ -64,7 +63,6 @@ const Header = () => {
   }, [searchParams]);
 
   return (
-    <SessionProvider>
     <header className="bg-base-200">
       <nav
         className="container flex items-center justify-between px-8 py-4 mx-auto"
@@ -202,8 +200,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
-  </SessionProvider>);
+    </header>);
 };
 
 export default Header;

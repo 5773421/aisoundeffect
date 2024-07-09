@@ -5,6 +5,8 @@ import { useSession, signIn } from "next-auth/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import config from "@/config";
+import {AppContext} from '@/contexts/AppContext';
+import {useContext} from 'react';
 
 // A simple button to sign in with our providers (Google & Magic Links).
 // It automatically redirects user to callbackUrl (config.auth.callbackUrl) after login, which is normally a private page for users to manage their accounts.
@@ -18,6 +20,8 @@ const ButtonSignin = ({
 }) => {
   const router = useRouter();
   const { data: session, status } = useSession();
+  const { credits, fetchUserCredits } = useContext(AppContext);
+
 
   const handleClick = () => {
     if (status === "authenticated") {
@@ -47,7 +51,7 @@ const ButtonSignin = ({
             {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
           </span>
         )}
-        {"Account"}
+        {`Credits: ${credits > 1000 ? credits : (credits || 0)}`}
       </Link>
     );
   }

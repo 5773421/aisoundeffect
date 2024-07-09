@@ -37,18 +37,18 @@ const IframeCom = ({isShow}: any) => {
           </div>
         </div>}
         {isShow && loading && <div className='mt-20 text-4xl font-medium'>Loading... please wait. If there is an issue with loading, please try refreshing the page.</div>}
-        <iframe
-          src="https://artificialguybr-stable-audio-open-zero.hf.space"
+        {/* <iframe
+          src="https://eagle0504-stable-audio-demo.hf.space"
           width="100%"
           frameBorder="0"
           height="900"
-        ></iframe>
-        {/* <iframe
+        ></iframe> */}
+        <iframe
           src="https://fffiloni-audiogen.hf.space"
           frameBorder="0"
           width="100%"
           height="450"
-        ></iframe> */}
+        ></iframe>
       </section>
   );
 };

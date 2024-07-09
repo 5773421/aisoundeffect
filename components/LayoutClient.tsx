@@ -4,7 +4,6 @@ import { ReactNode, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { useSession } from "next-auth/react";
 import { Crisp } from "crisp-sdk-web";
-import { SessionProvider } from "next-auth/react";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "react-hot-toast";
 import { Tooltip } from "react-tooltip";
@@ -54,7 +53,6 @@ const CrispChat = (): null => {
 const ClientLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
-      <SessionProvider>
         {/* Show a progress bar at the top when navigating between pages */}
         <NextTopLoader color={config.colors.main} showSpinner={false} />
 
@@ -76,7 +74,6 @@ const ClientLayout = ({ children }: { children: ReactNode }) => {
 
         {/* Set Crisp customer chat support */}
         <CrispChat />
-      </SessionProvider>
     </>
   );
 };
