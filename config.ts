@@ -106,13 +106,40 @@ const config = {
             // ? "408780"
             // : "408780",
         // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true.
-        isFeatured: true,
-        name: "Advanced",
+        isFeatured: false,
+        name: "Premium",
         price: 9.9,
         priceAnchor: 19.9,
         features: [
           {
             name: "200 Credits",
+          },
+          {
+            name: "Valid for 1 month",
+          },
+          { name: "Faster generation speed" },
+          { name: "High quality sound effect" },
+          { name: "Long duration sound effects" },
+          { name: "Customizable sound parameters"},
+          { name: "User-friendly interface" },
+          { name: "24/7 support" },
+        ],
+      },
+      {
+        variantId:
+          process.env.NODE_ENV === "development"
+            ? "426254"
+            : "426254",
+            // ? "408780"
+            // : "408780",
+        // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true.
+        isFeatured: true,
+        name: "Advanced",
+        price: 13.9,
+        priceAnchor: 29.9,
+        features: [
+          {
+            name: "Unlimited usage",
           },
           {
             name: "Valid for 1 month",

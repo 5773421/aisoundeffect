@@ -80,8 +80,16 @@ export async function POST(req: NextRequest) {
         user.variantId = variantId;
         user.customerId = customerId;
         user.hasAccess = true;
+        let credit = 60;
+        if (plan.name === 'Premium') {
+          credit = 200;
+        } else if (plan.name === 'Advanced') {
+          credit = 10000;
+        } else {
+          credit = 60;
+        }
         user.credits = [...user.credits, {
-          credit: plan.name === 'Start' ? 60 : 200,
+          credit: credit,
           ctime: new Date(),
         }]
         await user.save();
