@@ -13,7 +13,9 @@ const Create = (props: any) => {
   const [steps, setSteps] = useState<number>(100);
   const [prompt, setPrompt] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
+  const [downLoading, setDownLoading] = useState<boolean>(false);
   const [audioUrl, setAudioUrl] = useState<string>('');
+  const [fileName, setFileName] = useState<string>('soundeffect.wav');
   const t = useTranslations('Create');
   const { credits, fetchUserCredits } = useContext(AppContext);
 
@@ -35,11 +37,34 @@ const Create = (props: any) => {
       console.log('result', result);
       fetchUserCredits();
       setAudioUrl(result?.url || '');
+      setFileName(result?.file_name || 'soundeffect.wav');
     } catch (e) {
       setLoading(false);
     }
     setLoading(false);
   };
+
+  function downloadAudio() {
+    setDownLoading(true);
+    fetch(audioUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        const blobUrl = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = blobUrl;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(blobUrl);
+        document.body.removeChild(a);
+        setDownLoading(false);
+      })
+      .catch(error => {
+        console.error(':', error);
+        setDownLoading(false);
+      });
+  }
   return (
     <div className="container mx-auto py-6 px-0">
       <div className="w-full">
@@ -161,16 +186,20 @@ const Create = (props: any) => {
                     <div className="space-y-6">
                       <div className="space-y-6">
                         <div className="form-control space-y-2">
-                          <div className="flex flex-row items-center space-x-1">
+                          <div className="flex flex-row items-center space-x-1 justify-around">
                             <label htmlFor="model-input-prompt" className="text-content-strong font-base leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                               {/* <span className="label-text">Audio</span> */}
-                              <figure className='mt-5'>
+                              <figure>
                                 <audio controls src={audioUrl}></audio>
                               </figure>
                             </label>
+                            <Button size='3' loading={downLoading} disabled={!audioUrl} onClick={downloadAudio}>
+                              Download
+                            </Button>
                           </div>
                           {/* <textarea className="flex min-h-[80px] w-full rounded-md border border-stroke-base bg-surface-alpha px-3 py-2 text-sm text-content placeholder:text-content-lighter focus-ring disabled:cursor-not-allowed disabled:opacity-50 no-scrollbar resize-none" name="prompt" id="model-input-prompt" rows={3}></textarea> */}
                         </div>
+                  
                       </div>
                     </div>
                     <div style={{
