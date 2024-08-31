@@ -9,6 +9,7 @@ import * as fal from "@fal-ai/serverless-client";
 // This function is used to create a Stripe Checkout Session (one-time payment or subscription)
 // It's called by the <ButtonCheckout /> component
 // By default, it doesn't force users to be authenticated. But if they are, it will prefill the Checkout data with their email and/or credit card
+export const maxDuration = 60;
 export async function POST(req: NextRequest) {
   const body = await req.json();
 
