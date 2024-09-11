@@ -66,6 +66,7 @@ const Footer = () => {
                 {/* <a href="/#" target="_blank" className="link link-hover">
                   Affiliates
                 </a> */}
+                <a href='https://fluxlora.net'>FLUX LoRA Online</a>
                 <a href='https://www.sideprojectors.com/project/44078/ai-sound-effect'><img src='https://www.sideprojectors.com/img/badges/badge_show_black.png' alt='Check out Ai Sound Effect at @SideProjectors' /></a>
                 <a href="https://www.aitoolnet.com/" target="_blank"><img src="http://www.aitoolnet.com/static/assets/images/logo.svg" alt="aitoolnet.com" style={{
                   width:150,
