@@ -30,7 +30,7 @@ const Hero = () => {
         <p className="text-lg opacity-80 leading-relaxed">
           {t('desc')}
         </p>
-        <Link href="/playground" className="link link-hover">
+        <Link href="/create" className="link link-hover">
           <button className="btn btn-primary btn-wide">
             {t('startBtn')}
           </button>
