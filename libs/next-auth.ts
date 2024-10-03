@@ -36,10 +36,10 @@ export const authOptions: NextAuthOptionsExtended = {
     // Requires a MongoDB database. Set MONOGODB_URI env variable.
     ...(connectMongo
       ? [
-          EmailProvider({
-            server: process.env.EMAIL_SERVER,
-            from: config.mailgun.fromNoReply,
-          }),
+          // EmailProvider({
+          //   server: process.env.EMAIL_SERVER,
+          //   from: config.mailgun.fromNoReply,
+          // }),
         ]
       : []),
   ],
