@@ -33,7 +33,7 @@ const userSchema = new mongoose.Schema(
     credits: [{
       credit: {
         type: Number,
-        default: 1,
+        default: 0,
       },
       ctime: Date,
     }],
