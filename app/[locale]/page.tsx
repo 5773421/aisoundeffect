@@ -6,7 +6,6 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import FAQs from "@/components/FAQs";
 import CTA from "@/components/CTA";
-import IframeCom from '@/components/Iframe';
 import HowToUse from '@/components/HowToUse';
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
       </Suspense> */}
       <main>
         <Hero />
-        <IframeCom />
+        {/* <IframeCom /> */}
         {/* <Problem /> */}
         <Features />
         <HowToUse />
